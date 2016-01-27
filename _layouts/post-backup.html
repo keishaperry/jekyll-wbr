@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  {% include header.html %}
+  <body id="post">
+
+
+<div id="main" class="wrapper" role="main">
+  <article class="hentry">
+     
+      <h2> {{page.category}} </h2>
+      <h2> {{page.title}} </h2>
+      <h3>{{page.author}}</h3>
+      <p id="post-meta">{{ tags }}</p>
+      <div class="entry-content">
+     <!-- {{page.body}} -->
+        {{ content }}
+     
+       
+      </div><!-- /.entry-content -->
+      <hr/>
+
+<!--TODO partial out -->
+{% assign the_author = site.data.people | where: 'name', {{page.author}} %}
+{% for author in the_author %}
+ name: {{author.name}}<br />
+ desc: {{author.description}}
+{% endfor %}
+
+
+    </div><!-- /.entry-wrapper -->
+    
+  </article>
+</div><!-- /#main -->
+
+</body>
+</html>

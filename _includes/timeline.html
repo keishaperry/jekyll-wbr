@@ -1,0 +1,14 @@
+<ul id="timeline_posts" class="post-list js-on"> 
+</ul>
+<noscript>
+<ul class="post-list"> 
+  {% for post in site.posts %}
+    <li> 
+    <a class="postlink" href="{{ post.url | prepend: site.baseurl }}">
+    <p class="indent">► {{ post.title }}</p>
+    <p class="byline">{{ post.author }}</p>  
+    </a> 
+    </li> 
+  {% endfor %} 
+  </ul>
+  </noscript>

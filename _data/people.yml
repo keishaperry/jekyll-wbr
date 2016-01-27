@@ -1,0 +1,533 @@
+---
+-
+  author_key: 1
+  name: Aaron George
+  description: "Aaron George is a slightly misanthropic, skinny man who lives and works in Ohio. His fictional work has never been published, though he did used to write music reviews for altohio.com."
+-
+  author_key: 2
+  name: AD Fischer
+  description: "AD Fischer is 27 lives on a small farm in Livingston Montana with his friends goats and garden. AD spent the first part of his life wandering around loving puppet and drums in south Minneapolis Minnesota; but this week any thing could happen. AD has drama and suffering in his life and needs your support and prayers to be Reborn as a Phoenix."
+-
+  author_key: 3
+  name: Adam Moorad
+  description: "Adam Moorad is an amateur. He is the author of Oak Ridge (Turtleneck Press, 2012). He lives in Brooklyn. Visit him here: adamadamadamadamadam.blogspot.com"
+-
+  author_key: 4
+  name: Alex Lemon
+  description: "Alex Lemon is the author of Happy: A Memoir and three collections of poetry: Mosquito, Hallelujah Blackout, and Fancy Beasts. A fourth collection is forthcoming from Milkweed Editions. He lives in Ft. Worth, Texas, and teaches at TCU."
+-
+  author_key: 5
+  name: Allen Killian-Moore
+  description: "Allen Killian-Moore is an anarcho-feminist, pacifist, straight-edge, vegan, radical Mennonite, ecological thinker, poet, writer, visual artist, and social justice advocate. His work is enacted on the grounds of history within the folds of being, drawing partially from contemporary streams, yet also reaching out before and beyond them. His work engages frailty and resilience, considers ecological coexistence, and explores the degree to which both cultural and socio-economic structures shape experience."
+-
+  author_key: 6
+  name: AM Ringwalt
+  description: 
+-
+  author_key: 7
+  name: Amelia Foster
+  description: "Amelia Foster is a member of OUR FLOW IS HARD. She lives and works in the Twin Cities arts community."
+-
+  author_key: 8
+  name: Amy Collier
+  description: "Amy Collier once saw Fabio at an airport. Fabio is an Italian model who has appeared on many classic romance novels, such as Love Me with Fury, Lovestorm, and More Than a Feeling. He has been the spokesperson for The Geek Squad, OralB Sensitive Advantage Toothbrush, Nationwide Insurance, Versace, and the American Cancer Society. He is 6’3″ barefoot; usually in cowboy boots."
+-
+  author_key: 9
+  name: Andrew Field
+  description: "Andrew Field is finishing up his master’s in English at the University of Toledo. He teaches composition at Brown-"
+-
+  author_key: 10
+  name: Andrew Marzoni
+  description: "Andrew Marzoni is a writer based in Minneapolis. He teaches at the University of Minnesota, where he is currently writing a dissertation on the roles of sex, drugs, and madness in postwar American literature and cinema. His work has appeared in The Vista and Locating Shakespeare in the Twenty-First Century."
+-
+  author_key: 11
+  name: Ashlee Cermak
+  description: "Ashlee Cermak loves a good to-do list. She’s up to 66 push-ups—on the real—and regularly walks around town without a bra and everyone knows it. Let them look. When she’s not searching for missing clients in Wal-Marts across the metro area, she whips up delicious dishes for friends and drinks wine to feel fine. Favorite cheese: havarti. If she could be anyone else: Miles the cat."
+-
+  author_key: 12
+  name: Atticus Davis
+  description: 'Atticus Davis is a 22 year old writer living in Santa Clara, CA. He plans to attend School of The Art Institute of Chicago in Fall of 2013. He''s been listening to a lot Grimes lately and is just starting to learn to enjoy pot after being heavily influenced by the sXe culture and his father''s repressive religion. Bedouin Books published his first collection of poetry ''Dumb Stuttering Free.'''
+-
+  author_key: 13
+  name: Aurelia Friedland
+  description: 'Now based in Los Angeles, Aurelia has spent over seven years as a multidisciplinary designer and educator. Her work employs various media and methodologies surrounding interactivity: graphic design and paper prototyping, storytelling and animation, and the design of interactive experiences for phone, tablet, computer and space-based platforms.  With a design background extending across education reform initiatives, emerging technologies, and performance, Aurelia has inherited a broad view of systems and hopes for participatory systems which continue to facilitate diverse needs and perspectives. Click here for Aurelia''s professional website. Visit the project site here to review more examples of Unconditional Programs, or to read The Manual. '
+-
+  author_key: 14
+  name: Barbara Christina
+  description: "Barbara Christina is a New Jersey native with a degree in English: Creative Writing from the University of Rochester. Some more of her recent work has been published online at Xenith. You can also follow her on Twitter: @bwchristina."
+-
+  author_key: 15
+  name: Barrett White
+  description: 
+-
+  author_key: 16
+  name: Brad Liening
+  description: Brad Liening lives in Minneapolis with his wife and two cats.
+-
+  author_key: 17
+  name: Brandon Hackbarth
+  description: 
+-
+  author_key: 18
+  name: Brian White
+  description: 'Brian White lives in Brooklyn, NY. Originally a painter, he''s become a freelance writer, proofreader, and fiction writer over the years. He has written interviews with painters for art journals such as Kingsboro Press and Roma Publications as well as music reviews and interviews for Vice magazine and ''Sup Magazine. He is attending the n Review Writer''s Workshop this summer to connect with other writers and work on his fiction.'
+-
+  author_key: 19
+  name: Caleb True
+  description: 'Caleb True lives everywhere and nowhere. He likes to cook Asian food. When he''s not careering hard, he''s scrounging around for money, cooking Asian food, visiting friends in strange places, running, or trying to hit the big time in some other sense. He''s got fiction in The Madison Review, Euphony, Yemassee, and some other places. He lives online at calebtrue.tumblr.com.'
+-
+  author_key: 20
+  name: Chris Fradkin
+  description: "Chris Fradkin writes from Central California. His poetry and prose has appeared in Monkeybicycle, Thrush Poetry Journal, and Mobius: The Journal of Social Change. His photography has appeared in Bartleby Snopes. His songs have been recorded and performed by The Plimsouls, Alexis Korner, and Fergie."
+-
+  author_key: 21
+  name: Chris Moran
+  description: 
+-
+  author_key: 22
+  name: CJ Waterman
+  description: "CJ has an MFA from the University of Notre Dame. Some recent work appears/ is forthcoming in Gobbet, Metazen, and Deluge."
+-
+  author_key: 23
+  name: Claire Burgess
+  description: "Claire Burgess’s fiction has appeared in Third Coast, Hunger Mountain, Redivider, Annalemma, and PANK, and has recently been listed as notable in Best American Short Stories and Best American Nonrequired Reading. She is a founding editor of Nashville Review and received her MFA in Creative Writing from Vanderbilt University. Originally from Alabama, Claire now lives in Pittsburgh with her husband and zero cats and is working on finishing a collection of short stories. You can find her online at byclaireburgess.com."
+-
+  author_key: 24
+  name: Coop Lee
+  description: "Coop Lee has appeared in Specter Magazine, Atticus Review, and Side B Magazine, among other sweet spots. His hair is messy. His shoes are lost. His television has asparagus growing from it. You can find him living and writing in Boise, Idaho."
+-
+  author_key: 25
+  name: Corey Wakeling
+  description: 
+-
+  author_key: 26
+  name: Damien Miles-Paulson
+  description: 
+-
+  author_key: 27
+  name: Daniel Hedges
+  description: "Dan Hedges currently teaches English in the Sir Wilfred Laurier School Board of Quebec. He has also taught literature at Sedbergh School, and the Celtic International School. He has lived in various international locales, including Spain and Mexico. His poems and flash fiction have appeared or are forthcoming in The Monarch Review, Haggard and Halloo Publications, Wildflower Magazine, Mad Swirl, The Journal, Undertow Magazine, Poetic Diversity Quarterly, Wilderness House Literary Review, Blink Ink, The Kenning Journal, Marco Polo Arts Magazine, Inertia Magazine, Retort Magazine, Touch Poetry, Short-Fast-and-Deadly, The Maynard, Ditch Poetry, Crack the Spine Literary Journal, The Rusty Nail, Fortunates, Jones Avenue Quarterly, Coatlism Press, Greensilk Journal, Certain Circuits, The Camel Saloon, Literary Chaos, Subtopian Magazine, and others. His Ojibway name is Kakagiwe Biness."
+-
+  author_key: 28
+  name: Danielle Lea Buchanan
+  description: "Danielle Lea Buchanan pursues poetry in Baton Rouge, Louisiana."
+-
+  author_key: 29
+  name: David Kinzer
+  description: 
+-
+  author_key: 30
+  name: Denise Behrens
+  description: "Denise Behrens is a perennial undergraduate at the University of Iowa. During a stint in Portland, Oregon, her work appeared in Portland State University’s Pathos magazine. Upon her return to Iowa, more work appeared in Little Village magazine, in both poem and article form. She also flirted with the short story form in an undergrad journal, The Aberrant Parade. Lately, she writes reviews and manages content from writinguniversity.org. Her creative life of late includes syllabic poetic forms, perusing fancy culinary journals, and painting grotesque cakes."
+-
+  author_key: 31
+  name: Dennis James Sweeney
+  description: "Dennis recently had the luck to win the 2013 CutBank Chapbook Competition, and has other work coming out in wigleaf, Word For/Word, NANO Fiction, and Fractured West. He just moved to Corvallis, OR."
+-
+  author_key: 32
+  name: Diane Lefer
+  description: "Diane Lefer offered a series of writing workshops over the summer to men in The Francisco Homes transitional housing and worked with former political prisoners and ex-combatants in Northern Ireland in the fall. Her recent books include the historical novel, The Fiery Alphabet; the crime novel, Nobody Wakes Up Pretty; and nonfiction, The Blessing Next to the Wound, co-authored with Colombian exile and torture survivor Hector Aristizabal."
+-
+  author_key: 33
+  name: Drew Kalbach
+  description: "Drew Kalbach is from Philadelphia. He is the author of the e-chapbooks NATIONAL MOVEMENT (Pangur Ban Party, 2010) and THEATER (Scantily Clad Press 2009), and of the chapbook THE ZEN OF CHAINSAWS AND ENORMOUS CLIPPERS (Achilles Chapbook Series 2008)."
+-
+  author_key: 34
+  name: Elberto Mueller
+  description: "Elberto Muller is the author of books, essays, and poems, and sometimes paints beautiful things. He currently lives and teaches in eastern Ukraine, where in his free time enjoys silent, peripheral analysis of wild dogs and women who wear too much makeup."
+-
+  author_key: 35
+  name: Eldon Reishus
+  description: 
+-
+  author_key: 36
+  name: Eric L. Cummings
+  description: "Eric L. Cummings pinballs between Prague (CZ) and Morgantown (WV/US). His poems have appeared in Watchword, New Calligraphy, nether, GRASP, and/or, VLAT and elsewhere. Currently he works as a croupiers in Las Vegas (NV/US). He collects postcards featuring cloudscapes."
+-
+  author_key: 37
+  name: Eric Lloyd Blix
+  description: "Eric Lloyd Blix lives in Minneapolis. His stories do or soon will appear in Metazen, Necessary Fiction, Birkensnake, the Puritan, REAL: Regarding Arts & Letters, theNewerYork, and elsewhere. He is a candidate in the MFA program at Minnesota State University, Mankato, where he also teaches writing. He has a Twitter feed, @eric_blix."
+-
+  author_key: 39
+  name: Erin Kautza
+  description: "Erin Kautza lives and works in Chicago. She recently completed her MFA at SAIC."
+-
+  author_key: 40
+  name: Ethan Madarieta
+  description: "In my writing I am interested in exploring the construction of knowledge as production of identity, and in discovering possibilities for understanding identity through fiction and critical theory. My current project, “Tension, Resistance,” is about two friends stealing/liberating Mexican General Santa Anna’s prosthetic leg from the Military Museum in Illinois, with intentions of returning it to Mexico. The protagonist deems her Mexican contact unsuitable for deconstructing the pejorative history of “disability,” leading her to attempt to amputate her own leg. This story is a “parafiction” (as conceived by Carrie Lambert-Beatty), attempting to make radical possibilities for change 'real' by fomenting the belief that such change already exists and is therefore possible. The project of creating narratives that appear 'real' requires the creation of 'networks of meaning'. This is achieved by entering components of the story into the 'real' world; for example, my story narrativizes history, and retells plausible alternatives to dominant discourses through archival mimicry. In addition, I have created documents and websites that validate the text and blur the line between “real” and fiction. I am a senior at the University of Illinois Urbana and will graduate this May. I am currently working as a certified cosmetologist, writing a novel and an essay informed by the writings of Heidegger, Derrida and Lacan, and awaiting reply to graduate school applications."
+-
+  author_key: 41
+  name: Evan Morgan
+  description: "There is an experience in everything. I wish to capture these experiences for all to read. My goal is great, and my progress small and insignificant. I want to be a poet. I’ll get there one day."
+-
+  author_key: 42
+  name: Frederick Pollack
+  description: "Frederick Pollack is the author of two book-length narrative poems, The Adventure and Happiness, both published by Story Line Press. Other of his poems and essays have appeared in Hudson Review, Southern Review, Fulcrum, Salmagundi, Poetry Salzburg Review, Die Gazette (Munich), Representations and elsewhere. Poems have recently appeared in the print journals Magma (UK), The Hat, Bateau, and Chiron Review. Online, poems have appeared in Big Bridge, Snorkel, Hamilton Stone Review, Diagram, BlazeVox, The New Hampshire Review, Denver Syntax, Barnwood, Wheelhouse, Mudlark, Shadow Train and elsewhere. Pollack is an adjunct professor of creative writing at George Washington University, Washington, DC."
+-
+  author_key: 43
+  name: Garett Strickland
+  description: 'Garett Strickland lives in Portland, OR. He''s the artistic director/producer at Unwin-Dunraven, the editor of PLINTH (forthcoming), and a regular contributor at HTMLGiant. He records and performs in a conceptual jazz-noise ensemble called CLOTHES. He''s a metaphysician. He makes books and tapes. www.unwin-dunraven.com'
+-
+  author_key: 44
+  name: Gary Shipley
+  description: "Gary J. Shipley is the author of six books of various sizes, the latest of which is a co-authored chapbook of poems forthcoming from Strange Cage. His work has appeared recently or is forthcoming in The Black Herald, Gargoyle, Paragraphiti, nthposition, elimae, >kill author, 3:AM, and others. More details can be found at garyjshipley.blogspot.co.uk"
+-
+  author_key: 45
+  name: Gary Sloboda
+  description: 
+-
+  author_key: 46
+  name: Getty Carver
+  description: Getty Carver prefers to leave this space blank.
+-
+  author_key: 47
+  name: Gregory Sherl
+  description: "Gregory Sherl is the author of poetry collection Heavy Petting (YesYes Books, 2011) in addition to The Oregon Trail Is the Oregon Trail, a novella in verse, (Mud Luscious Press, 2012) and I Have Touched You, a chapbook of linked stories, from Dark Sky Books."
+-
+  author_key: 48
+  name: Hunter Sharpless
+  description: "I was lucky enough, in January of this year, to spend two weeks in Havana, Cuba. The trip was too short to formulate any synthesized critique of Cuban-American relations, but jarring and interesting enough to write about. It shed harsh light on the power plays of both the United States and Cuban governments, which both allow a decades-old grudge to dictate policy. This is a personal essay, a questioning of the embargo, and a wondering of the persistent question: What is it to be the American abroad? I graduated from the University of Iowa with a BA in English, and am currently an MFA candidate in creative writing at the University of Minnesota. I was born and raised in Texas."
+-
+  author_key: 49
+  name: J. Bradley
+  description: "J. Bradley is the author of the novella Bodies Made of Smoke (HOUSEFIRE, 2012). He lives at iheartfailure.net."
+-
+  author_key: 50
+  name: J. Fossenbell
+  description: "J. Fossenbell writes poems and other stuff. Her work has appeared in ILK Journal, Parabasis, Everyday Other Things, Cerise Press, Wazee Independent Journal, The Word magazine, and in translation in a handful of publications in Vietnam. She lives in Minneapolis, where she goes to MFA school at the University of Minnesota and is an editor for dislocate magazine."
+-
+  author_key: 56
+  name: Jason Spidle
+  description: "Jason Spidle is a survivor of the corporacratic empire. His work has been published on the Internet, mostly by himself. He lives in Portland."
+-
+  author_key: 51
+  name: Jam Hibdon
+  description: "Jams was born and raised in Missouri. He ran barefoot often, and has shared in journals, movies, comics, and performances with friends from all over. Along the way, he received a BA in English, and has comics forthcoming in his ongoing Lingua Franca Comics, and the Middle West Anthology, edited by Skip Harvey. See more of his work at kaijucomics.blogspot.com."
+-
+  author_key: 52
+  name: James Cihlar
+  description: "James Cihlar is the author of the poetry books Undoing (Little Pear Press, 2008), Rancho Nostalgia (Dream Horse Press, 2013) and the chapbook Metaphysical Bailout (Pudding House Press, 2010). His writing appears in American Poetry Review, Prairie Schooner, Lambda Literary Review, Smartish Pace, Court Green, Mary, and Forklift, Ohio. He teaches literature at the University of Minnesota and creative writing at Macalester College."
+-
+  author_key: 53
+  name: James Collector
+  description: "James Collector is my real name. I make beats and arrange words. I live in San Francisco. I like mead. I’ll get around to publishing my booklet of joy poems “Word Stars Fruit” when I feel like it. Life is so good to be true and I’m honored to be in the WHOLE BEAST RAG. Really, I’m giddy about it. And yes, I’m going to eat that."
+-
+  author_key: 54
+  name: Jared Joseph
+  description: 'Jared Joseph is currently pursuing his MFA at the Iowa Writers'' Workshop. Recent works have been published in Radioactive Moat & elimae, while his chapbook "Commuting: Have Gone to Ithaca. -Frank Quitely" is available from Varmint Armature Press, an imprint of Trnsfr magazine.'
+-
+  author_key: 55
+  name: Jason Joyce
+  description: "Jason Joyce graduated in 2009 from the University of Wyoming and now lives in Los Angeles, working in event planning at Loyola Marymount University. He plays keyboards in the band The Rubbish Zoo, co-owns the clothing company Weekend Society and is working on his first full-length collection of poems and short stories. You can find out more about his writing and published poetry on his blog at jasonrjoyce.tumblr.com."
+-
+  author_key: 57
+  name: Jeannette Gomes
+  description: 'Jeannette Gomes lives in Chicago. Her work is published or forthcoming in Red Lightbulbs & Untoward Magazine. She loves putting her face in her cats'' belly fluff.'
+-
+  author_key: 58
+  name: Jennifer Robin
+  description: 
+-
+  author_key: 59
+  name: Jennifer Taylor
+  description: 
+-
+  author_key: 60
+  name: Jennine Scarboro
+  description:
+-
+  author_key: 61
+  name: Jerimee Bloemeke
+  description: "Jerimee Bloemeke was born in Fort Lauderdale, FL, 1987. He has a BFA from New York University’s Tisch School of the Arts and an MFA from the University of Iowa Writers’ Workshop. His work has been widely published in journals and magazines including The Iowa Review (forthcoming, 2014), Novembre, The Claudius App, NOÖ Journal, The Broome Street Review, and Artifice. [I have also published several chapbooks under the Human 500 imprint.] Most recently he is the author of 25¢ CASH (Slim Princess Holdings, 2013). He lives in Iowa City."
+-
+  author_key: 62
+  name: Jessica Huang
+  description: "Jessica Huang writes plays cross-legged on the kitchen floor, often wearing one sock and chewing her cuticles. She and her laptop have survived higher education at the University of Missouri, a melodramatic stint in Phoenix and have now been writing together in assorted Minneapolis diners and bars for two years. You might have seen Jessica’s work (and on rare occasions, Jessica herself) onstage at The Playwrights’ Center, in the Red Eye Theater’s Works in Progress series, in Late Nite and CAP at Pillsbury House, at Pangea World Theater, in 2g’s Free Range Festival and coming soon to the Como Zoo. Jessica is a cofounder of the Unit Collective, a Many Voices Fellow at the Playwrights’ Center and a grant writer at Pangea World Theater."
+-
+  author_key: 63
+  name: Jim Davis
+  description: 'Jim Davis is a graduate of Knox College and an MFA candidate at Northwestern University. Jim lives, writes, and paints in Chicago, where he edits the North Chicago Review. His work has appeared in Seneca Review, Blue Mesa Review, Poetry Quarterly, Whitefish Review, The Café Review, and Contemporary American Voices, in addition to winning the Line Zero Poetry Contest, Eye on Life Poetry Prize, multiple Editor''s Choice awards, and a recent nomination for the Best of the Net Anthology. www.jimdavispoetry.com'
+-
+  author_key: 64
+  name: Jody Giardina
+  description: 'This is the 680-word manifesto I wrote on America''s cubicled existence. I wrote it in my actual workspace in a text editor, printed it as a single page, and then photocopied it 500 times and left the copies in heaps around the office. It is the tiny insurrections that allow me to survive. Like stealing 5 paperclips every day for a year, and then weaving them into an undershirt and wearing it to work beneath my suit and tie. Nobody suspected a thing.'
+-
+  author_key: 65
+  name: Joe Hughes
+  description: "Joe Hughes is a recently reprogrammed android. He has no idea who he is or was. After some research, Grace was able to determine that he was recently an instructor of English at the University of Minnesota, Twin Cities, and apparently the author of Philosophy After Deleuze. She found his piece for EDGE in his dusty, abandoned office in Lind Hall."
+-
+  author_key: 66
+  name: Joey Heinen
+  description: "Joey Heinen wears many hats, though not literally since he has a small head that tends to look even smaller with things on it. Born into a fun but attention-seeking family, his first form of expression was the theater at the ripe age of five. Perhaps it was the boredom of growing up in St. Cloud that spurred a diverse set of interests and hobbies. In his 26 years, he has dabbled in music, photography, painting, writing, dance/performance art, Japanese, party-planning, museum studies, installation, drag, mix-taping, and mixology. His most recent epiphany is film, though he strives to be more productive to a society as a whole than to become a critical theorist. More than anything, he wants to go on a long, scenic drive with you. His spirit animal is a meerkat."
+-
+  author_key: 67
+  name: John Beck
+  description: "John Beck lives and writes on the Eastern Shore of Maryland. He received his BA from Washington College and his MA from SUNY Binghamton, both in literature. His work has previously been published by Turtle Ink Press, The Serotonin Project, and Red Fez. He is a baseball staff writer for PinstripeAlley.com, and runs a book review blog at http://andalittlewine.blogspot.com/."
+-
+  author_key: 68
+  name: John Grey
+  description: "John Grey is an Australian born poet who works as financial systems analyst. He was recently published in Poem, Caveat Lector, Prism International and the horror anthology, “What Fears Become” with work upcoming in Potomac Review, Hurricane Review and Pinyon."
+-
+  author_key: 69
+  name: John Pistelli
+  description: John Pistelli is a graduate student at the University of Minnesota and he lives in Minneapolis.
+-
+  author_key: 70
+  name: Jon Dambacher
+  description: "Jon Dambacher lives in Los Angeles, Ca. His published works of fiction are, “Gyratory Jabber,” “Sour Candies,” “A Strange, Sickly Beauty,” & a small book of poetry “Anchored Disorder” in collaboration with Cliff Weber. @Jon_Dambacher is on Instagram, Tumblr, etc."
+-
+  author_key: 71
+  name: Jonas Specktor
+  description: 
+-
+  author_key: 72
+  name: Joseph Farley
+  description: "Joseph Farley edited Axe Factory from 1986 to 2010. His books and chapbooks include Suckers, For the Birds, Longing for the Mother Tongue, Waltz of the Meatballs, Her Eyes, and Crow of Night."
+-
+  author_key: 73
+  name: Julia Bouwsma
+  description: "Julia Bouwsma is a self-employed writer, editor, and farmer. Her poems and reviews have appeared in Colorado Review, Cutthroat, The Progressive, Sugar House Review, and Quay. An MFA recipient from Goddard College, she was recently awarded a fellowship from the Virginia Center for Creative Arts. Julia lives off-grid in the mountains of western Maine."
+-
+  author_key: 74
+  name: Justin Lawrence Daugherty
+  description: 'Justin Lawrence Daugherty writes about the lizard-boy quite a bit lately. He''s on Twitter (@jdaugherty1081), where he says weird things. Also, he wants to play Final Fantasy III and write a flash chapbook about it. His work appears most recently in Knee-Jerk, Little Fiction, Barrelhouse, The Collagist, and elsewhere. "The Return of Crows" is an excerpt from a novella. Justin''s the helmsman at Sundog Lit.'
+-
+  author_key: 75
+  name: Kevin Hedman
+  description: "Kevin Hedman was born in St. Paul and now lives in Minneapolis. His stories have been published on-line at Paper Darts and in the print collection Decadent Selections (Skullduggery Press, 2011)."
+-
+  author_key: 76
+  name: Kevin McIlvoy
+  description: "Kevin McIlvoy mentors writers through his website, mcthebookmechanic.com. His story, 'Ixodes,' appears in his new collection, 57 Octaves Below Middle C. Other pieces from it have appeared in Freight Stories, The Collagist, and Prime Number. His novels, Hyssop and Little Peg, are available as e-books (Untreed Books)."
+-
+  author_key: 77
+  name: Kimberly Ann Southwick 
+  description: "Kimberly Ann Southwick is the founder and editor in chief of Gigantic Sequins, a literary arts journal. Visit giganticsequins.com to observe its full splendor. She lives in Philadelphia and teaches grammar and literature. Her poetry has been published by Barrelhouse, Big Lucks, Word Riot, PANK, decomP and elsewhere. She will be making her acting debut as an extra in the film ImagiGary. Follow her on twitter: @kimannjosouth."
+-
+  author_key: 78
+  name: Kirk AC Marshall
+  description: 
+-
+  author_key: 79
+  name: Kirk Marshall
+  description: "Kirk Marshall is a Brisbane-born writer and teacher living in Melbourne, Australia. He was a sessional academic / adjunct teacher in Creative Writing, English, Literature and Media (Film & T.V. Studies) at RMIT University for two years, and has held various teaching positions in Queensland, Victoria and Tokyo, Japan. He is the author of a fiction chapbook (A Brief Study of the Dissolute Properties of Comedy When You’re Propelled Off Your Speeding Motorcycle Into A Sharp Asphalt Road, And Your Name Is Takeshi Kitano) published by Dynatox Ministries; a novella (The Signatory) published by Skylight Press; a short-story collection (Carnivalesque, And: Other Stories) published by Black Rider Press; and an illustrated miscellany (A Solution to Economic Depression in Little Tokyo, 1953). He has written for more than eighty publications, both in Australia and overseas, including Word Riot (U.S.A.), 3:AM Magazine (France), Le Zaporogue (France/Denmark), (Short) Fiction Collective (U.S.A.), The Vein (U.S.A.), Danse Macabre (U.S.A.), WHOLE BEAST RAG (U.S.A.), Gone Lawn (U.S.A.), The Seahorse Rodeo Folk Review (U.S.A.), The Journal of Unlikely Entomology (U.S.A.) and Kizuna: Fiction for Japan (Japan). He edits Red Leaves, the English-language / Japanese bi-lingual literary journal. He now suffers migraines in two languages."
+-
+  author_key: 80
+  name: Kristin Fitzsimmons
+  description: "Kristin Fitzsimmons lives in Minneapolis where she’s an MFA candidate at the University of Minnesota and member of the poetry collective OUR FLOW IS HARD."
+-
+  author_key: 81
+  name: Lauren Espinoza
+  description: 'Lauren Espinoza''s poetry has appeared in an anthology selected by Naomi Shihab Nye entitled Time You Let Me In: 25 Poets Under 25, online at The Acentos Review. Her fiction is also online at Label Me Latina, and she has poems forthcoming in NewBorder: Contemporary Voices from the Texas/Mexico Border and The Mas Tequila Review. She is a member of The Trinity, a poetry clica from the Rio Grande Valley. Currently, Lauren is a graduate student in the MFA. Program in Poetry at Arizona State University and holds a graduate certificate in Mexican American Studies from the University of Texas-Pan American.'
+-
+  author_key: 82
+  name: Lauren Gordon
+  description: "Some of Lauren’s recent work has appeared or is forthcoming with Poetry International, Inlandia Institute, TRIVIA: Voices of Feminism, Scapegoat Review, Verse WI, Sugared Water and has been anthologized in “Knocking at the Door” (Birch Bench Press 2010). Her MFA is in Poetry from New England College and her BA in English from University of Iowa."
+-
+  author_key: 83
+  name: Leif Haven
+  description: Leif Haven is brand new. More work can be found at leifhaven.com.
+-
+  author_key: 84
+  name: Lindsay Ruoff
+  description: "Lindsay Allison Ruoff makes things that are visual and sometimes of an other-sensory nature. She co-authored TRANS-, a chapbook by Allison Duncan, and has work tucked into various pockets of the internet at places like NAP and Red Lightbulbs. She is an editor at HOUSEFIRE and lives in Portland, Oregon."
+-
+  author_key: 85
+  name: Maria Teutsch
+  description: "Maria Garcia Teutsch is a poet currently enjoying ex-pat status living in Malaysia. Living in a Muslim country has roused her natural rebelliousness made manifest in her latest chapbook entitled, Pussy. She is editor-in-chief of Ping-Pong magazine, and serves as president of the Henry Miller Memorial library in Big Sur, California."
+-
+  author_key: 86
+  name: Mark Brenden
+  description: "Mark Brenden is a young, South Dakotan writer."
+-
+  author_key: 87
+  name: Mark Cugini
+  description: 'Mark Cugini''s work has appeared or is forthcoming in Melville House, Keyhole, Barrelhouse, Matchbook, Everyday Genius, and other publications. He’s a founding editor of Big Lucks, a regular contributor to HTMLGiant, and the curator of the Three Tents Reading Series in Washington, DC. His chapbook I''M JUST HAPPY TO BE HERE is forthcoming from Ink Press.'
+-
+  author_key: 88
+  name: Mark DeCarteret
+  description: "Mark DeCarteret has met up with some lit-luck as of late at BlazeVOX, coconut, Confrontation, Everyday Genius, Gargoyle, Ghost Ocean Magazine, Hunger Mountain, THRUSH, Toad Suck Review and Welter."
+-
+  author_key: 89
+  name: Mark J. Mitchell
+  description: 
+-
+  author_key: 90
+  name: Martha Kinkade
+  description: 'Martha Kinkade is a poet-peace activist. Her first book Winter''s Light (Montezuma Publishing 2011) explores a harsh Wyoming reality. She writes poetry, children stories and inspirational literature. Her poetry has appeared in Psychic Meatloaf, Jackson Hole Review, and The Mom Egg. Currently, she teaches at San Diego State University. www.marthakinkade.com'
+-
+  author_key: 91
+  name: Matthew Dexter
+  description: "Like a nomadic Pericú, Matthew Dexter survives on a hunter-gatherer subsistence diet of grilled shrimp tacos, shrimp cocktails, smoked marlin, cold beer, and warm sunshine. He lives in Cabo San Lucas, Mexico."
+-
+  author_key: 92
+  name: MF Nagel
+  description:
+-
+  author_key: 93
+  name: Michael J. Martin
+  description: 'Michael J. Martin doesn''t like the Lakers and feels the Clippers are going to change basketball in the next few years. Some poems in dope places such as Swink, the New York Quarterly, Bayou Magazine, NOO, among others. He lives off of Pico in Los Angeles and takes the bus regularly.'
+-
+  author_key: 94
+  name: Molly Sutton Kiefer
+  description: "Molly Sutton Kiefer’s chapbook The Recent History of Middle Sand Lake won the 2010 Astounding Beauty Ruffian Press Poetry Award. Her work has appeared in Harpur Palate, Women’s Studies Quarterly, Berkeley Poetry Review, Comstock Review, you are here, Gulf Stream, Cold Mountain Review, Wicked Alice, and Permafrost, among others. She received her MFA from the University of Minnesota, serves as poetry editor to Midway Journal, and runs Balancing the Tide: Motherhood and the Arts | An Interview Project. She currently lives in Red Wing with her husband and daughter and is expecting a second child in February. She is at work on a manuscript on (in)fertility. More can be found at mollysuttonkiefer.com."
+-
+  author_key: 95
+  name: Moneta Goldsmith
+  description: "Moneta Goldsmith is a writer and performer whose works have appeared in Sparkle & Blink, Frank Matter, Under the Influence, and other publications. He eats mostly at regular mealtimes in front of his typewriter and, when he is not eating, he ruffles his feathers and preens for Satan."
+-
+  author_key: 96
+  name: Natalie Raymond
+  description: 
+-
+  author_key: 97
+  name: Nathan Hirstein
+  description: "Nathan Hirstein co-founded the Unwin-Dunwin Literary Ecclesia, a poetic & metaphysical concern focused on explorations of liminality & creations of anomalous media. A style consultant, avid fantasist & large body of people unified by a shared geographical territory, his friends know him as Nation."
+-
+  author_key: 98
+  name: Nathan Kemp
+  description: "Nathan Kemp is a graduate student focusing in poetry at the Northeast Ohio Master of Fine Arts. His work appears or is forthcoming in The Bakery, NAP, and Puerto del Sol. He is a poetry editor for Barn Owl Review and Rubbertop Review. Visit him at nathanckemp.wordpress.com."
+-
+  author_key: 99
+  name: Neal Kitterlin
+  description: "Neal Kitterlin lives with his wife and child in Matteson, Illinois. His work has appeared or is forthcoming in PANK, HOUSEFIRE, NAP, The Northville Review, Specter Magazine, and other places. Find him on twitter @NealKitterlin or at infinitegestures.tumblr.com."
+-
+  author_key: 100
+  name: Neila Mezynski
+  description: "Neila Mezynski is author of Glimpses and A Story (2013) from Scrambler Books, a pamphlet (Girls In Trees) from Greying Ghost Press, echapbooks from Radioactive Press (Yellow Fringe Dress) and Patasol Press (The Pure Girl) , chapbooks from Folded Word Press (Men Who Understand Girls, 2012), Nap Chapbook, (Floaters, 2012), Deadly Chaps Press (Dancers On Rock (2011), Warriors (2013), and Mudluscious Press (At the Beach 2011)."
+-
+  author_key: 101
+  name: Peter Milne Greiner
+  description: "Peter Milne Greiner was born in Massachusetts and lives in Brooklyn. His poems and essays have appeared in Fence, OMNI Reboot, Leveler, Coldfront, Spiral Orb, Sound Literary Magazine, Poem Tiger, FAQNP, Diner Journal, Stone Telling, Exit Strata, You’re Beautiful, New York, Between: New Gay Poetry, and Here, We Cross, an anthology of queer and genderfluid poetry. He is an editor at The Operating System and DrunknSailor, and the author of the chapbook Glyph Test Site, a companion to the work of M. Mel Shimkovitz. In June of 2013 he sent a poem into space through the Jamesburg Earth Station in Carmel Valley, California. "
+-
+  author_key: 102
+  name: Peycho Kanev
+  description: "Peycho Kanev is the Editor-In-Chief of Kanev Books. His poems have appeared in more than 600 literary magazines, such as: Poetry Quarterly, Evergreen Review, Hawaii Review, The Monarch Review, The Coachella Review, Third Wednesday, Black Market Review, The Cleveland Review, In Posse Review, Mascara Literary Review and many others. Peycho Kanev is nominated for the Pushcart Award and Best of the Net. His poetry collection Bone Silence was released in September 2010 by Desperanto Publishing Group. A new collection of his poetry, titled Requiem for One Night, will be published by Desperanto Publishing Group in 2012."
+-
+  author_key: 103
+  name: Ratty St. John
+  description: "Ratty St. John is a barely-legal navel-gazer hailing from the SF Bay. Publishing credentials include Diagram and Metazen. Keep abreast of the bastard here: rattysaintjohn.tumblr.com."
+-
+  author_key: 104
+  name: "RC Miller & Gary Shipley"
+  description:  "RC Miller lives in Metuchen, NJ. He is the author of Mask With Sausage (gobbet press), Pussy Guerilla Face Banana Fuck Nut (Les Editions Du Zaporogue), A Large Retailer (Ronin Press) as well as a collaborative experiment with Gary J. Shipley called Flavored Apocalypse (Strange Cage). Miller maintains an art blog via visionblues.blogspot.com.  Gary J. Shipley is the author of eight books of various sizes. His latest is forthcoming from Blue Square Press. He has published in Gargoyle, The Black Herald, Paragraphiti, elimae, >kill author, nthposition, 3:AM, and others. More details can be found at garyjshipley.blogspot.com.  "
+-
+  author_key: 105
+  name: Rupprecht Mayer
+  description: "Rupprecht Mayer was born 1946 near Salzburg. After some 20 years living and working in Taiwan, Beijing, and Shanghai, he recently resettled in SE Bavaria. He translates Chinese literature and writes short prose and poetry in German and English."
+-
+  author_key: 106
+  name: Russ Woods
+  description: "Russ Woods is a librarian living in Chicago. He writes poems. His first book, Wolf Doctors, is forthcoming from Artifice Books."
+-
+  author_key: 107
+  name: Russell Jaffe
+  description: "Russell Jaffe is an artist in Iowa City teaching high school English and editing Strange Cage, a small poetry press and reading series. His first book, This Super Doom I Aver, is forthcoming from Poets Democracy press. His poems have appeared in The Colorado Review, H_NGM_N, DIAGRAM, La Petite Zine, American Letters & Commentary, Action Yes, and others. He collects 8-tracks."
+-
+  author_key: 108
+  name: Ryan Forsythe
+  description: 'Ryan Forsythe is a writer, editor, and artist from Cleveland, now living in Southern California, though he calls the mythical State of Jefferson home. He is the author of Dick Cheney Saves Paris, a madcap sci-fi meta-anti-novel released in 2011 by Love Earth Publications, and The Little Veal Cutlet That Couldn''t, a children''s book for adults. More information at ryanforsythe.com.'
+-
+  author_key: 109
+  name: Sally Franson
+  description: Sally Franson is an MFA candidate and teacher at the University of Minnesota. Her work has appeared most recently in elimae and quantum poetry magazine. 
+-
+  author_key: 110
+  name: Sarah Bannon
+  description: "Sarah Bannon is an undergraduate at the University of Iowa. She studies psychology and conducts experiments, but occasionally explores her creative life in the form of short stories and nonfiction writings. In her free time she can frequently be found salivating in the company of food-related television or literature."
+-
+  author_key: 111
+  name: Sarah Combellick-Bidney
+  description: 'Sarah Combellick-Bidney teaches political science and women''s studies at Augsburg College in Minneapolis. Her interests these days converge on reproductive justice, queer politics, and social movements, broadly construed. She also likes to meditate with her cats, drink tea, and plant things in her garden to see what comes up.'
+-
+  author_key: 112
+  name: Sarah Fox
+  description: "Sarah Fox lives in Northeast Minneapolis where she co-directs, with John Colburn, the Center for Visionary Poetics. Coffee House Press published her book Because Why in 2006, and will release The First Flag in Spring 2013. She teaches writing and poetics, contributes to the multi-author arts and culture blog Montevidayo, and also serves as a doula. Recent work appears, or soon will, in Conduit, Action, Yes, Fence, We Are So Happy To Know Something, Poetry City USA Vol. 2, Spout, Altered Scale, Rain Taxi, LUNGFULL!, and others. She performs poetry rituals and other intersubjective actions in public and private spaces around the Twin Cities and beyond."
+-
+  author_key: 113
+  name: Scott F. Parker
+  description: "Scott’s writing has appeared in many venues, including WHOLE BEAST RAG’s “Chthonic” issue."
+-
+  author_key: 114
+  name: Sean Beld
+  description: "Sean Beld is a poet currently residing in Corvallis, Oregon. whiskysour.tumblr.com"
+-
+  author_key: 115
+  name: Sean Damlos-Mitchell
+  description: 
+-
+  author_key: 116
+  name: Sean Kilpatrick
+  description: "Sean Kilpatrick is published in Boston Review, Fence, Columbia Poetry Review, Evergreen Review, Hobart, The Collagist, No Colony, New York Tyrant, LIT, and Caketrain."
+-
+  author_key: 117
+  name: Sennah Yee
+  description: "Sennah Yee is a Toronto screenwriting student. Though named after a racecar driver, she has yet to go behind a wheel. Her first chapbook THE AQUARIUM is forthcoming from Dancing Girl Press. Find her at sennahaha.tumblr.com."
+-
+  author_key: 118
+  name: Shane Roeschlein
+  description: "Shane Roeschlein is a writer, Caucasianish male Amerimutant. Dad guy. Riot enthusiast. Transmitter. Author of graphic novel Caustic Soda – A Year Future Narco Romance. Chief propagandist for San Diego post-punk collective, Does It Explode. His texts have appeared in the Journal of Experimental Fiction, Pacific Review and Fiction International and also online at noisey.com. He was recently nominated for the Pushcart Prize in Fiction. Short, controlled bursts available on twitter @andaluciabomber. "
+-
+  author_key: 119
+  name: Sharlene Teo
+  description: "Sharlene Teo is a Singaporean writer between places and spaces. Her work has previously appeared in Softblow, The Ballard Street Poetry Journal, Amelia’s Magazine and Glass amongst others. She currently serves as Fiction Editor for Notes from the Underground, and runs Strange Likeness, a blog of sporadically updated life writing."
+-
+  author_key: 120
+  name: Steven T. Bramble
+  description: "Steven T. Bramble is the author of two novels, AFFLICTION INCLUDED and GRID CITY OVERLOAD, and has had work appear in literary journals. He currently makes his home in Long Beach, and hopes to construct an alternate prototype of thought to achieve psychological liberation from the aggressive and lording objects all around, which is probably also why many consider him to be a tedious bastard."
+-
+  author_key: 121
+  name: Taleen Kalenderian
+  description: "Taleen Kalenderian is a writer, artist & musician (TÜLIPS) from LA. Her writings & photos have been published in The Bushwick Review, theNewerYork, Filter, SPIN, The Onion A.V. Club & L.A. Record. She is Director of Sales & Marketing at Narrow Books, & founder of DUM DUM Zine."
+-
+  author_key: 122
+  name: Terence Kuch
+  description: "Terence Kuch’s speculative fiction has appeared in paying markets including Dark Fiction Spotlight, Arct, Fusion Fragment, Niteblade (Canada), Noctober, Polluto (U.K.), Roar & Thunder (Australia), Sybil’s Garage, etc. His work has been featured in anthologies from Pill Hill, House of Horror (U.K.), Static Movement, and other publishers. He is on the editorial teams of Fickle Muses and Z-composition e-zines, and is Fiction Editor of The Again (U.K.). His writings in literary and other genres have appeared in numerous periodicals including Commonweal, Diagram, Dissent, Foundling Review, New Scientist, New York magazine, North American Review, Slow Trains, Thema, Timber Creek Review, Washington Post Book World, and Washington Post Magazine. His work has been praised in the New York Times and by Kirkus Reviews. His popular “microfiction” blog, www.terencekuch.com, available for subscription on Amazon, has had more than 21,000 page views. He lives in Pimmit Hills, Virginia, with his wife and several dissatisfied cats."
+-
+  author_key: 123
+  name: Terrell Jamal Terry
+  description: "Terrell Jamal Terry was born in Germany and raised in North Carolina and Texas. His poetry has appeared or is forthcoming in West Branch, Verse online, Sou’wester, dislocate, and TYPO, among other literary journals. He lives in South Seattle."
+-
+  author_key: 124
+  name: Ticky Sowdenham
+  description: "Ticky Sowdenham is a Minneapolis native whose Minneapolis roots can be traced back 5 generations. She graduated from Sarah Lawrence College in 2006 where she studied writing. She is working on a series of e-books entitled Daisy’s Erotic Adventures in Time. They are available on Amazon.com."
+-
+  author_key: 125
+  name: Tony Mancus
+  description: "Tony Mancus is the author of three chapbooks. He is co-founder of Flying Guillotine Press and he lives in Virginia with his wife Shannon and their two cats."
+-
+  author_key: 126
+  name: Valentina Cano
+  description: "Valentina Cano is a student of classical singing who spends whatever free time either writing or reading. Her works have appeared in Exercise Bowler, Blinking Cursor, Theory Train, Cartier Street Press, Berg Gasse 19, Precious Metals, A Handful of Dust, The Scarlet Sound, The Adroit Journal, Perceptions Literary Magazine, Welcome to Wherever, The Corner Club Press, Death Rattle, Danse Macabre, Subliminal Interiors, Generations Literary Journal, Super Poetry Highway, Stream Press, Stone Telling, Popshot, Golden Sparrow Literary Review, Rem Magazine, Structo, The 22 Magazine, The Black Fox Literary Magazine, Niteblade, Tuck Magazine, Ontologica, Congruent Spaces Magazine, Pipe Dream, Decades Review, Anatomy, Lowestof Chronicle, Muddy River Poetry Review, Lady Ink Magazine, White Masquerade Anthology and Perhaps I’m Wrong About the World. You can find her here: http://carabosseslibrary.blogspot.com"
+-
+  author_key: 127
+  name: Veronica Noechel
+  description: "Veronica Noechel has been active in rodent rescue for a decade and currently fosters small animals."
+-
+  author_key: 128
+  name: Viktorsha Uliyanova
+  description: "Viktorsha Uliyanova is an import from the old Soviet Union, and received her BA in Literature from Hunter College. Her poetry has appeared at The ClockWise Cat, Guerilla Pamphlets, Clutching at Straws, and Babushwick Zine. Uliyanova currently resides in Brooklyn, New York."
+-
+  author_key: 129
+  name: William Haas
+  description: "William Haas lives in Portland, Oregon. His writing has appeared in Dark Mountain, Fiddleblack, Riverteeth, Spittoon, and elsewhere."
+-
+  author_key: 130
+  name: William Reichard
+  description: "William Reichard is the author of four collections of poetry, most recently Sin Eater (2010) and This Brightness (2007) both from Mid-List Press. He is the editor of the anthology American Tensions: Literature of Identity and the Search for Social Justice (New Village Press, 20111)."
+-
+  author_key: 131
+  name: XC Atkins
+  description: 'XC Atkins is a writer living in and exploring New Orleans. He''s had work published in Annalemma, Makeout Creek, and Richmond Noir. He also enjoys making zines, two stepping, and thinking about wolves.'
+-
+  author_key: 132
+  name: Yael Villafranca
+  description: Yael Villafranca is a poet based in the San Francisco Bay Area. Her work has appeared in Delirious Hem and is forthcoming in ELIXHER. You can find out more at http://about.me/yaelv. She tweets obliquely about her crushes @yaelv.
+-
+  author_key: 133
+  name: Zac Tomaszewski
+  description: "Zac Tomaszewski is a 26 year-old LA native, who does a lot of things, none of them particularly well. I went to Berkeley and studied art, and then moved to Norway for an MFA at the National Academy, focusing on painting and video installations. None of which has much to do with what I submitted, but what does? I gotta go, my dog wants to fight me."
+-
+  author_key: 134
+  name: Zack Woodard
+  description: "Zack is an emerging writer out of Philadelphia. He received his MFA in Creative Writing from Arcadia University, and his work was recently published in Intellectual Refuge."

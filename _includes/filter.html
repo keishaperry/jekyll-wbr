@@ -1,0 +1,11 @@
+ <ul>
+          {% for nav_item in site.data.filter %}
+          {% if page.url == nav_item.link %}
+            <li class="active">
+          {% else %}
+            <li class="">
+          {% endif %}
+              <a class="" id="{{ nav_item.name }}" href="{{ nav_item.link }}">{{ nav_item.name }}</a>
+            </li>
+          {% endfor %}
+</ul>

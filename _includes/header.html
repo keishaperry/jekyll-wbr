@@ -1,0 +1,44 @@
+<header id="masthead" class="site-header" role="banner">
+  <div class="wrapper">
+    <a href="{{ site.baseurl }}/" id="banner" title="Whole Beast Rag" rel="home"> 
+      <h1 class="banner"> Whole Beast Rag</h1> 
+      <h2 class="subtext">Fertilize Your Brain</h2>
+    </a>
+        <nav class="main-navigation-static">
+          <ul>
+          {% for nav_item in site.data.nav %}
+          {% if page.url == nav_item.link %}
+            <li class="active">
+          {% else %}
+            <li class="">
+          {% endif %}
+          <noscript>
+              <a class="navkey navkey-static" id="{{ nav_item.fontkey }}" name="{{ nav_item.name }}" href="{{ nav_item.link }}">{{ nav_item.name }}</a>
+          </noscript>
+              <a class="navkey js-on" id="{{ nav_item.fontkey }}" name="{{ nav_item.name }}" href="{{ nav_item.link }}"></a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+  </div>   
+</header>
+<script>
+$(document).ready(function() {
+  $('.js-on').removeClass('js-on');
+  $('.main-navigation-static').removeClass('main-navigation-static').addClass('main-navigation');
+  $('noscript').remove();
+  $(".navkey").each(function(index) {
+    //console.log( index + ": " + $( this ).attr("id") );
+    var fontkey = $(this).attr("id");
+    $(this).html(fontkey);
+  });
+});
+$('.navkey').mouseover(function() {
+  var name = event.target.name;
+  $("#banner").replaceWith("<a href='{{ site.baseurl }}/' id='banner' title='Whole Beast Rag' rel='home'><h1 class='banner'>" + name + "</h1><h2 class='subtext-h'>Fertilize Your Brain</h2></a>");
+});
+$('.navkey').mouseout(function() {
+  $("#banner").replaceWith("<a href='{{ site.baseurl }}/' id='banner' title='Whole Beast Rag' rel='home'><h1 class='banner'>Whole Beast Rag</h1><h2 class='subtext'>Fertilize Your Brain</h2></a>");
+});
+</script>

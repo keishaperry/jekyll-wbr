@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+      <div class="sidebar filter">
+      {% include filter.html %}
+      </div>
+      <div class="panel">
+        {{ content }}
+        </div>
+      <div class="sidebar timeline">
+    {% include timeline.html %}
+      </div>
+      </div>
+    </div>
+<div class="clearfix"></div>
+    {% include footer.html %}
+
+  </body>
+
+</html>

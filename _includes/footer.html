@@ -1,0 +1,33 @@
+<footer>
+    <div class="map-wrapper" onclick="">
+      <div class="imageMap" aria-haspopup="true"> <img id="mapimg" src="../assets/img/footer-base.png" data-menu-src="../assets/img/footer-base.png" alt="" />
+        <div class="hotspots">
+          <div>
+            <a href="{{baseurl}}/random/" class="fancybox fancybox.iframe camel" data-menu-src="../assets/img/camel.png" rel="nofollow"></a>
+          </div>
+          <div>
+            <a href="{{baseurl}}/random/" class="fancybox fancybox.iframe mountain" data-menu-src="../assets/img/mountain.png" rel="nofollow"></a>
+          </div>
+          <div>
+            <a href="{{baseurl}}/random/" class="fancybox fancybox.iframe light" data-menu-src="../assets/img/light.png" rel="nofollow"></a>
+          </div>
+          <div>
+            <a href="{{baseurl}}/random/" class="fancybox fancybox.iframe eye" data-menu-src="../assets/img/eye.png" rel="nofollow"></a>
+          </div>
+          <div>
+            <a href="{{baseurl}}/random/" class="fancybox fancybox.iframe abstract" data-menu-src="../assets/img/abstract.png" rel="nofollow"></a>
+          </div>
+        </div>
+      </div>
+    <p class="foot">
+        <a class="kat" href="http://www.freshconceptual.com/">Katharine Hargreaves</a> & 
+        <a class="kei" href="http://www.keishaperry.com/">Keisha Perry</a>
+        </p> </div>
+  <script>
+  $(".imageMap a").on("mouseenter", function() {
+    $("#mapimg").attr("src", $(this).data("menu-src"));
+  }).on("mouseleave", function() {
+    $("#mapimg").attr("src", $("#mapimg").data("menu-src"));
+  });
+  </script>
+</footer>

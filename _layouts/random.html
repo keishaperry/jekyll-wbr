@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html> {% include head.html %} {% include header.html %}
+<style>
+.close {
+  font-size: 300%;
+  position: absolute;
+  top: 0%;
+  right: 2%;
+}
+</style>
+
+<body id="post">
+  <div id="main" class="wrapper" role="main">
+    <article class="">
+      <noscript> noscript </noscript>
+      <div id="modal" class="modal-body">
+        <div id="random_posts"> </div> <a onclick="history.back(-1)" class="close">X</a> </div>
+      <div id="fade" class="black_overlay"></div>
+    </article>
+  </div>
+  <!-- /#main -->
+  <script>
+  $(document).ready(function() {
+    document.getElementById('modal').style.display = 'block';
+    document.getElementById('fade').style.display = 'block';
+  });
+  </script>
+</body>
+
+</html>

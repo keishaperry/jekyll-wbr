@@ -1,0 +1,113 @@
+.wrapper{
+	margin: 0 auto;
+}
+//xsmall
+@media (max-width: 400px) {
+  html { background: red; }
+  .wrapper{
+	width: 400px;
+  }
+}
+//small
+@media (min-width: 401px) and (max-width: 800px) {
+  .wrapper { background: green; }
+  .wrapper{
+  	width: 400px;
+  }
+
+}
+
+//medium
+@media (min-width: 801px) and (max-width: 1223px) {
+  .wrapper { background: transparent; }
+  .wrapper{
+  		width: 800px;
+  	}
+ 	.panel{
+    	display: block;
+    	float: none;
+    	margin: 0 5%;
+    	width: 90%;
+  	}
+    .sidebar,
+    .filter{
+    	float: none;
+    	margin: $spacing-unit auto;
+    	width: 100%;
+	}
+	.timeline{
+		float: none;
+		margin: $spacing-unit auto;
+		width: 100%;
+	}
+	.filter li{
+		display: inline;
+		padding: 0 2%;
+	}
+	.timeline ul{
+		display: inline;
+		padding: 0;
+	}
+	.timeline p, .timeline li{
+		display: inline;
+		letter-spacing: 1px;
+		margin: 2px ;
+		word-spacing: 2px;
+	}
+  .timeline a{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 2px;
+  }
+  .indent{ 
+    margin:0 2px;
+  }
+}
+
+//large
+@media (min-width: 1224px) {
+  .wrapper { background: blue; }
+  .wrapper{
+      width: 1200px;
+    }
+  .panel{
+      display: inline;
+      float: left;
+      margin: 0 2%;
+      width: 60%;
+    }
+    .filter{
+      display: inline;
+      float: left;
+      margin: $spacing-unit auto;
+      width: 14%;
+  }
+  .timeline{
+    display: inline;
+    float: left;
+    margin: $spacing-unit auto;
+    width: 16%;
+  }
+  .filter li{
+    display: block;
+    padding: 0 2%;
+  }
+  .timeline ul{
+    display: block;
+    padding: 0;
+  }
+  .timeline p, .timeline li{
+    display: block;
+    letter-spacing: 1px;
+    margin: 2px ;
+    word-spacing: 2px;
+  }
+  .timeline a{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 2px;
+  }
+  .indent{ 
+    margin:0 2px;
+  }
+}
