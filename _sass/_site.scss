@@ -8,7 +8,6 @@
          url('../assets/fonts/hffblacksteel-webfont.svg#hff_black_steelregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 .clearfix{
   clear: both;
@@ -25,6 +24,22 @@
   -moz-opacity: 0.8;
   opacity: .80;
   filter: alpha(opacity=80);
+}
+
+.panel{
+    height: 800px;
+    overflow: hidden;
+}
+.home {
+    height: 89%;
+    width: 102%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 15px;
+}
+.results{
+  display: none;
+  margin: 10px 0 50px;
 }
 
 nav {
@@ -45,23 +60,18 @@ nav {
     clear: both;
     display: block;
     float: left;
-    height: 50px;
-    max-width: 100%;
-    margin-bottom: $spacing-unit;
-    margin-top: 50px;
+    height: auto;
+    margin: $spacing-unit auto;
+    width: 90%;
 }
 
 .main-navigation ul{
     display: inline;
     list-style: none;
+    margin-left: 0;
     width:100%;
 }
 
-.main-navigation li {
-    display: inline;
-    font-size: 200%;
-    padding: 0 calc(#{$spacing-unit} * 2);
-}
 
 .main-navigation-static{
     clear: both;
@@ -78,7 +88,6 @@ nav {
     list-style: none;
     width:100%;
 }
-
 .main-navigation-static li {
     display: inline;
     font-size: 160%;
@@ -87,34 +96,35 @@ nav {
     text-transform: uppercase;
     width:19%;
 }
-.site-header {
+.banner {
+    color: #fff;
+    font-family: Steel;
+    display: block;
+  }
+  .site-header {
     font-family: Steel;
     background-color: #ffffcc;
     background-image: url('../assets/img/headtexture.png');
     display: block;
     width: 100%;
-    height: 280px;
     text-align: center;
+
 }
 
 
-.banner {
-    color: #fff;
-    font-size: calc(#{$base-font-size} * 5);
-    font-family: Steel;
-    display: block;
-    padding-top: 100px;
-}
 
 .subtext, .subtext-h {
     color: #fff;
     font-family: Arial;
     text-transform: uppercase;
-    letter-spacing: 22px;
-    word-spacing: 28px;
 }
 .subtext-h {
     color: #000;
+}
+
+.filter ul{
+  list-style: none;
+  margin-left: 0;
 }
 
 .filter a{

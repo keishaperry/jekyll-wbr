@@ -9,13 +9,14 @@
 
     <div class="page-content">
       <div class="wrapper">
-      <div class="sidebar filter">
+      <div class="sidebar">
       {% include filter.html %}
       </div>
       <div class="panel">
         {{ content }}
         </div>
-      <div class="sidebar timeline">
+      <div class="sidebar tl">
+      {% include search.html %}
     {% include timeline.html %}
       </div>
       </div>

@@ -20,16 +20,16 @@
           {% endfor %}
         </ul>
       </nav>
-      <div class="clearfix"></div>
+     
   </div>   
 </header>
+ <div class="clearfix"></div>
 <script>
 $(document).ready(function() {
   $('.js-on').removeClass('js-on');
   $('.main-navigation-static').removeClass('main-navigation-static').addClass('main-navigation');
   $('noscript').remove();
   $(".navkey").each(function(index) {
-    //console.log( index + ": " + $( this ).attr("id") );
     var fontkey = $(this).attr("id");
     $(this).html(fontkey);
   });

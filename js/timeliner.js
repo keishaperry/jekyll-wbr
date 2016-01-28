@@ -6,7 +6,7 @@
 
             var randomIndexUsed = [];
             var counter = 0;
-            var numberOfPosts = 15;
+            var numberOfPosts = 20;
 
             var divTimelinePosts = $("#timeline_posts");
 
@@ -22,11 +22,11 @@
 
                     if (counter == (numberOfPosts - 1))
                     {
-                        divTimelinePosts.append('<li><a class="postlink" href="' + postHREF + '"><p class="indent">►' + postTitle + '</p><p class="byline">'+ postAuthor + '</p></a></li>');
+                        divTimelinePosts.append('<li><a class="postlink" href="' + postHREF + '"><p><span class="indent">►</span>' + postTitle + '</p><p class="byline">'+ postAuthor + '</p></a></li>');
                     }
                     else
                     {
-                        divTimelinePosts.append('<li><a class="postlink" href="' + postHREF + '"><p class="indent">►' + postTitle + '</p><p class="byline">'+ postAuthor + '</p></a></li>');
+                        divTimelinePosts.append('<li><a class="postlink" href="' + postHREF + '"><p><span class="indent">►</span>' + postTitle + '</p><p class="byline">'+ postAuthor + '</p></a></li>');
                     }
 
                     randomIndexUsed.push(randomIndex);

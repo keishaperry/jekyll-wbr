@@ -1,3 +1,4 @@
+<div class="timeline">
 <ul id="timeline_posts" class="post-list js-on"> 
 </ul>
 <noscript>
@@ -5,10 +6,11 @@
   {% for post in site.posts %}
     <li> 
     <a class="postlink" href="{{ post.url | prepend: site.baseurl }}">
-    <p class="indent">► {{ post.title }}</p>
+    <p><span class="indent">►</span>{{ post.title }}</p>
     <p class="byline">{{ post.author }}</p>  
     </a> 
     </li> 
   {% endfor %} 
   </ul>
   </noscript>
+</div>
