@@ -13,3 +13,5 @@ github_username:  keishaperry
 
 # Build settings
 markdown: kramdown
+
+#gems: ['jekyll-lunr-js-search']
