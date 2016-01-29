@@ -47,10 +47,5 @@ $(document).ready(function() {
     }
     resultdiv.append("<hr/>");
   });
-  $('input#search').on('focusout', function () {
-    var resultdiv = $('#results');
-    resultdiv.empty();
-    resultdiv.hide();
- 
-  });
+
 });
