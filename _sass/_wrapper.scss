@@ -16,11 +16,11 @@
 }
 .tl-search:focus{
   border: none;
-  outline: -webkit-focus-ring-color auto 0px;
+  outline: -webkit-focus-ring-color auto 0;
 }
 //xsmall
 @media (max-width: 400px) {
-  #masthead { background: red; }
+  //#masthead { background: red; }
   .wrapper{
 	max-width: 360px;
   width: 100%;
@@ -71,7 +71,6 @@
   }
   .timeline p, .timeline li{
     display: inline;
-    margin: 2px ;
   }
   .timeline a{
     display: inline-block;
@@ -82,7 +81,7 @@
 }
 //small
 @media (min-width: 401px) and (max-width: 800px) {
-  #masthead { background: green; }
+  //#masthead { background: green; }
   .wrapper{
   	width: 400px;
   }
@@ -129,7 +128,6 @@
   }
   .timeline p, .timeline li{
     display: inline;
-    margin: 2px ;
   }
   .timeline a{
     display: inline-block;
@@ -141,7 +139,7 @@
 
 //medium
 @media (min-width: 801px) and (max-width: 1223px) {
-  #masthead { background: pink; }
+  //#masthead { background: pink; }
   .wrapper{
   		width: 800px;
   	}
@@ -187,7 +185,6 @@
 	}
 	.timeline p, .timeline li{
 		display: inline;
-		margin: 2px ;
 	}
   .timeline a{
     display: inline-block;
@@ -198,7 +195,7 @@
 
 //large
 @media (min-width: 1224px) {
-  #masthead { background: blue; }
+  //#masthead { background: blue; }
   .wrapper{
       width: 1200px;
     }
@@ -216,15 +213,14 @@
   .main-navigation li {
     display: inline;
     font-size: 200%;
-    padding: 0 8%;    }
+    padding: 0 2% 0 10%;
+  }
   .panel{
-      display: inline;
       float: left;
       margin: 0 2%;
       width: 60%;
     }
     .filter{
-      display: inline;
       float: left;
       margin: $spacing-unit auto;
       width: 14%;
@@ -252,7 +248,7 @@
   }
   .timeline li{
     display: block;
-    margin: 0px ;
+    margin: 0;
   }
   .timeline a{
     display: inline-block;
