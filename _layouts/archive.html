@@ -1,0 +1,26 @@
+---
+layout: fullwidth
+---
+<style>
+#archive{
+  margin: 10px auto;
+    -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px; 
+}
+
+</style>
+<h2>Archive</h2><br/>
+<section id="archive">
+<div class="3col">
+  <ul>
+  {% assign sorted_posts = site.posts | sort %}
+  {%for post in sorted_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+  </div>
+</section>
