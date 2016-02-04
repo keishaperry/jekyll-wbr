@@ -1,0 +1,14 @@
+<html><head><title>pdf2html demo</title></head><body>
+<h1>pdf2html demo</h1><hr>
+<form method="POST" action="/" enctype="multipart/form-data">
+<p>Upload PDF File: <input name="f" type="file" value="">
+&nbsp; Page numbers (comma-separated):
+<input name="p" type="text" size="10" value="">
+<p>(Text extraction is limited to maximum 100 pages.
+Maximum file size for input is 10000000 bytes.)
+<p><input type="submit" name="c" value="Convert to HTML">
+<input type="submit" name="c" value="Convert to TEXT">
+<input type="reset" value="Reset">
+</form><hr>
+<p>Powered by <a href="http://www.unixuser.org/~euske/python/pdfminer/">PDFMiner</a>-20140328
+</body></html>

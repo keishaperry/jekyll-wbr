@@ -3,9 +3,13 @@ layout: fullwidth
 title: Contact
 permalink: /contact/
 ---
+<h4>Inquiries? <a href="http://www.projektkatharine.net/" target="_blank">Contact Katharine</a>.</h4>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<h2>STAY TUNED</h2>
+<div id="subscribeForm">
+<p class="message">Get on the mailing list:</p>
+<form action="http://formspree.io/wbr@keishaperry.com" method="POST">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Subscribe">
+</form>
+</div>

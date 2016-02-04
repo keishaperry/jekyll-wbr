@@ -2,8 +2,20 @@
 layout: default
 ---
 
-<div class="home">
+<div id="home-window" class="home">
 
-{% include 07_homme.html %}
+{% include homme.html %}
 
 </div>
+<script>
+$(document).ready(function(){
+    if (history.state) {
+       $("#home-window").scrollTop(history.state.data);
+    }
+    $("#home-window").scroll(function() {
+       var scrollPos = $("#home-window").scrollTop();
+       var stateObj = { data: scrollPos };
+       history.replaceState(stateObj, "");
+    });
+});
+</script>
