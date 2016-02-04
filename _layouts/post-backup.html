@@ -36,3 +36,55 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+{% include head.html %} {% include header.html %}
+<style>
+.close{
+  font-size: 300%;
+  position: absolute;
+  top: 0%;
+  right: 2%;
+}
+</style>
+<body id="post">
+  <div id="main" class="wrapper" role="main">
+    <article class="">
+      <noscript>
+        <h2> {{page.category}} </h2>
+        <h2> {{page.title}} </h2>
+        <h3>{{page.author}}</h3>
+        <h3>{{page.issue}}</h3>
+        <p id="post-meta">{{ tags }}</p>
+        <div class="entry-content">
+          <!-- {{page.body}} -->{{ content }} </div>
+        <!-- /.entry-content -->
+        <hr/>
+        <!--TODO partial out -->{% assign the_author = site.data.people | where: 'name', {{page.author}} %} {% for author in the_author %} name: {{author.name}}
+        <br /> desc: {{author.description}} {% endfor %} </noscript>
+      <div id="modal" class="modal-body">
+        <h2> {{page.category}} </h2>
+        <h2> {{page.title}} </h2>
+        <h3>{{page.author}}</h3>
+        <p id="post-meta">{{ tags }}</p>
+        <div class="entry-content">
+          <!-- {{page.body}} -->{{ content }} </div>
+        <!-- /.entry-content -->
+        <hr/>
+        <!--TODO partial out -->{% assign the_author = site.data.people | where: 'name', {{page.author}} %} {% for author in the_author %} name: {{author.name}}
+        <br /> desc: {{author.description}} {% endfor %} 
+        <a onclick="history.back(-1)" class="close">X</a>
+        </div>
+      <div id="fade" class="black_overlay"></div>
+    </article>
+  </div>
+  <!-- /#main -->
+  <script>
+  $(document).ready(function() {
+    document.getElementById('modal').style.display = 'block';
+    document.getElementById('fade').style.display = 'block';
+  });
+  </script>
+</body>
+
+</html>

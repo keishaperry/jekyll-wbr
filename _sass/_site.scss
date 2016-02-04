@@ -12,6 +12,15 @@
 .clearfix{
   clear: both;
 }
+.article-content p{
+  margin-top: 20px;
+}
+.article-content a{
+  text-decoration: underline;
+}
+.align-right{
+  text-align: right;
+}
 .black_overlay {
   display: none;
   position: absolute;
@@ -137,19 +146,35 @@ nav {
 .byline{
     background: $yellow;
 }
-
-
-.modal-body {
-  display: none;
-  position: absolute;
-  top: 15%;
-  left: 15%;
-  width: 70%;
-  height: 70%;
-  background-color: white;
-  z-index: 1002;
-  overflow: auto;
+.page{
+  display: block;
+  float: none;
+  height: auto;
 }
+.col-half{
+  display: inline;
+  float: left;
+  margin: 100px 1%;
+  width: 46%;
+}
+
+.column-double{
+    -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px; 
+}
+.column-triple{
+    -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px; 
+}
+
 .foot {
   text-align: center;
 }
