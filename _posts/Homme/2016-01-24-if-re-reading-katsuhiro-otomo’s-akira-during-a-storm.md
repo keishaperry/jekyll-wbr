@@ -6,3 +6,4 @@ author: John Beck
 category: poetry
 issue: homme
 ---
+![wbrbeck](/assets/img/homme/akira-during-a-storm.jpg)

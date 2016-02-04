@@ -6,3 +6,4 @@ author: Sennah Yee
 category: poetry
 issue: homme
 ---
+![man-cannot-be](/assets/img/homme/mancannotbe.jpg)
