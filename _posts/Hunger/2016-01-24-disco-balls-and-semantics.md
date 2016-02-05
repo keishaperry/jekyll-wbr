@@ -6,3 +6,6 @@ author: Daniel Hedges
 category: poetry
 issue: hunger
 ---
+While we concede that disco balls have hundreds of facets (there is  
+no standard) the great semantic conundrum has a panoply of facets  
+that makes physics look like snakes and ladders.

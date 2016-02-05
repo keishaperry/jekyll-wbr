@@ -6,3 +6,15 @@ author: Martha Kinkade
 category: poetry
 issue: edge
 ---
+Jonathan’s  
+encased  
+in a marble vessel.  
+My skin  
+wrapped  
+around him,  
+fingers  
+in rotted  
+scalp.  
+My heart  
+thirsting  
+remains.
