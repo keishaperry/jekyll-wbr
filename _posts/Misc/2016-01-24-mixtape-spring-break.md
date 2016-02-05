@@ -1,13 +1,12 @@
 ---
 layout: post 
 date: 2016-01-24
-title: MIXTAPE&#58; SPRING BREAK
+title: "Mixtape&#58; SPRING BREAK"
 author: Katharine Hargreaves
 category: mixtapes
 issue: misc
 ---
 **TRACKLIST**  
-
 1. DAN DEACON - Woof Woof  
 2. METRONOMY - She Wants  
 3. THE RADIO DEPT - David  

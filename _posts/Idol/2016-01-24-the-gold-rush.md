@@ -9,13 +9,12 @@ issue: idol
 **1\. _WOOL: Plane Tree Forum_**  
 
 UNDER TEMPEST’S HAIL of pollen you both alec the goodie cul-de-sac duchy shooting
-
 ganza from the stoop wizened but repainted, much then in hoodwink to adore. Woollen
 
 platinum bedressed, this, must hammer-tongs the private history not known nativity, and with  
-thanks not St. Bartholomew’s either. Thanks especially to Criteria.
+<span style="word-spacing: 14px;" markdown="1">thanks not St. Bartholomew’s either. Thanks especially to Criteria.</span>
 
-The last will & testament open belly.
+<span style="word-spacing: 30px;" markdown="1">The last will & testament open belly.</span>
 
 **2\. _WHALE OIL: Suburbs_**  
 
@@ -30,7 +29,7 @@ another’s infancy not predicated on it, swathed. The daub party to evisceratio
 
 Kalamunda moot point the muted about dais at Classics ante-room the common, save the
 
-rabid dying their desperation
+<span style="word-spacing: 60px;" markdown="1">rabid dying their desperation</span>
 
 suburban midnights in spring, dint for great white shark pneumonia phenomenon. And the
 
@@ -39,7 +38,7 @@ northern hemispherical vulcanology, the pustules in water, the watery avenues th
 bespeak, I like the possibility of mud, where instead survey trouble, and the eyeball lights of  
 teleology. Drive home messianic, at least then this family hierarchy the petty-bourgeois
 
-s i t s b e n e a t h
+<span style="word-spacing: 16em;letter-spacing:8px;" markdown="1">sits beneath</span>
 
 **3\. _TALLOW: Smith Street_**  
 
@@ -48,7 +47,7 @@ IMMACULATEST COPROLALIA. SO the virtues of the salvaged body, the artefact that
 galls the paramour to Jetstar gambol to-fro continent Ryanair roulette. No roulade,
 
 no food bar Bile Town’s secession from this pork roll begging casement. It cries when killed  
-Eros, it cries when killed handshake, because the Stevens emphasis
+<span style="word-spacing: 24px;" markdown="1">Eros, it cries when killed handshake, because the Stevens emphasis</span>
 
 all my faculties demand light the sprite turpitude for the Swami incumbent, because pagan
 
@@ -76,4 +75,4 @@ the gold rush to the curs and the tremble to their adulatory shanks all forgot,
 to the grand tour of our waters when the close-to-pagan moot point abstinence gone from our
 
 suffering, spittle in our cheeks from mud bespoken, the past tense like a nugget and mint in  
-o n e, a s p i r a t i o n t u r n s y o g i c.
+<span style="word-spacing: 60px;" markdown="1">one, aspiration turns yogic.</span>

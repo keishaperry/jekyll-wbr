@@ -1,13 +1,12 @@
 ---
 layout: post 
 date: 2016-01-24
-title: MIXTAPE&#58; NIGHT
+title: "Mixtape&#58; NIGHT"
 author: Mally
 category: mixtapes
 issue: misc
 ---
 **TRACKLIST**  
-
 1. SKYZOO - Langston's Pen  
 2. PHONTE - Who Loves You More  
 3. STALLY - Chevys & Spaceships  

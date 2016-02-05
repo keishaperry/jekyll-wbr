@@ -1,13 +1,12 @@
 ---
 layout: post 
 date: 2016-01-24
-title: MIXTAPE&#58; FEMMES/HOMBRES
+title: "Mixtape&#58; FEMMES/HOMBRES"
 author: Marshall LA Count
 category: mixtapes
 issue: misc
 ---
 **TRACKLIST**  
-
 1. PHILIP GLASS - In The Upper Room  
 2. CALLERS - You Are An Arc  
 3. ANGEL OLSON - Tiniest Lights  
