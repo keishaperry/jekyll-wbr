@@ -5,8 +5,8 @@
     {
       "title"    : "{{ post.title }}",
       "href"     : "{{ post.url }}",
-      "author"   : "{{ post.author}}",
-      "content"   : "{{ content}}"
+      "author"   : "{{ post.author }}",
+      "content"   : "{{ content }}"
     }
     {% unless forloop.last %},{% endunless %}
     {% endfor %}

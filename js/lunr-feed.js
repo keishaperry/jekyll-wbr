@@ -1,10 +1,9 @@
 ---
 ---
 var index = lunr(function () {
-  this.field('title',{boost: 10})
+  this.field('title',{boost: 5})
   this.field('content')
   this.field('category',{boost: 10})
-  this.field('tags',{boost: 10})
   this.field('author',{boost: 10})
   this.ref('id')
 });
