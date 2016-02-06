@@ -1,10 +1,9 @@
 # Site settings
-title: Whole Beast Rag
+title: "Whole Beast Rag | Fertilize Your Brain"
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Whole Beast Rag operated from January 2012 to November 2013. The idea will live on.
+  We dabble in literature, interviews, supplements, translations and other transmissions.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "localhost:4000" # the base hostname & protocol for your site
 permalink: /articles/:title

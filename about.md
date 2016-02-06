@@ -28,3 +28,37 @@ permalink: /about/
   <h4>Interviewer</h4>
   </div>
   <div class="clearfix"></div>
+<hr/>
+
+<h2>Contributors</h2>
+<div class="contributors">
+{% assign contributors = site.data.people %}
+
+<div class="col-half">
+{% for author in contributors limit:67 %}
+{% include contributor.html %}
+{% endfor %}
+</div>
+<div class="col-half">
+{% for author in contributors offset:67 %}
+{% include contributor.html %}
+{% endfor %}
+</div>
+</div>
+<div class="clearfix"></div>
+<script>
+$( ".contributor-head" ).click(function() {
+  $('.contributor-body').hide();
+  //$(this).addClass
+  $(this).next('.contributor-body').show();
+});
+</script>
+<script>
+$(document).ready(function() {
+   var linkedAuthor = $(location).attr('hash');
+  if (!linkedAuthor){
+  } else {
+  $(linkedAuthor).addClass('byline');
+  };
+});
+</script>

@@ -1,66 +1,31 @@
-<!DOCTYPE html>
-<html>
-{% include head.html %} {% include header.html %}
-
-<body id="post">
-  <div id="main" class="wrapper" role="main">
-    <article class="post-popup">
-      <noscript>
- <div class="article-header">
-        <h2> {{page.title}} </h2>
-        <h3>by: {{page.author}}</h3>
-        </div>
-        <div class="article-content">
-{{ content }}
-
-           </div>
-
-        <hr/>
-        
-        {% assign the_author = site.data.people | where: 'name', {{page.author}} %} {% for author in the_author %}
-        <div class="article-author">
-         <p>{{author.description}}</p>
-        </div>
-        {% endfor %} 
-       
-        </noscript>
-
-      <div id="post-modal" class="modal-body">
-        <div class="article-header">
-          <h2> {{page.title}} </h2>
-          <h3>by: {{page.author}}</h3>
-        </div>
-        <div class="article-content">
-          {{ content }}
-
-        </div>
-
-        {% assign the_author = site.data.people | where: 'name', {{page.author}} %} {% for author in the_author %} {% if author.description %}
-        <div class="article-author">
-          <p>{{author.description}}</p>
-        </div>
-        {% endif %} {% endfor %}
-
-        <a onclick="history.back(-1)" class="close">X</a>
-
-      </div>
-      <div id="fade" class="black_overlay"></div>
-    </article>
-  </div>
+---
+layout: fullwidth
+---
+<article class="post-popup"> 
+<noscript>
+  {% include post-content.html%}
+</noscript>
+      
+<div id="post-modal" class="modal-body">
+  <a onclick="history.back(-1)" class="close">X</a> 
+  {% include post-content.html%}
+</div>
+<div id="fade" class="black_overlay"></div>
+</article>
 
   <script>
-  $(document).ready(function() {
+  $(document).ready(function()
+  {
     document.getElementById('post-modal').style.display = 'block';
     document.getElementById('fade').style.display = 'block';
-    $(".close").click(function() {
+    $(".close").click(function()
+    {
       document.getElementById('post-modal').style.display = 'hidden';
       document.getElementById('fade').style.display = 'hidden';
     });
-    $(document).keyup(function(e) {
+    $(document).keyup(function(e)
+    {
       if (e.keyCode == 27) $('.close').click(); // esc
     });
   });
   </script>
-</body>
-
-</html>

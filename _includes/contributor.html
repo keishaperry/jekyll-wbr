@@ -1,0 +1,13 @@
+<span class="contributor">
+<a id="{{author.name | downcase | replace:' ','-' }}" class="contributor-head"> {{author.name}}</a>
+<div class="contributor-body">{{author.description}}
+<hr />
+<ul class="contributor-list">
+{% assign the_posts = site.posts | where: 'author', {{author.name}} %} 
+{% if the_posts %}{% for post in the_posts %} 
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}{% endif %}	
+</ul>
+</div>
+</span><br />
+

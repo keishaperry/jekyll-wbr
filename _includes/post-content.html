@@ -1,0 +1,17 @@
+<div class="post">
+<div class="article-header">
+    <h2> {{page.title}} </h2>
+    <h3><a href="/about#{{page.author | downcase | replace:' ','-' }}"> by: {{page.author}}</a></h3>
+  </div>
+  <div class="article-content">
+    {{ content }}
+  </div>
+        
+  {% assign the_author = site.data.people | where: 'name', {{page.author}} %} {% for author in the_author %}
+  {% if author.description %}
+    <div class="article-author">
+      <p>{{author.description}}</p>
+    </div>
+    {% endif %}
+{% endfor %} 
+</div>

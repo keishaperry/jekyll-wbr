@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
-<h1 class="page-title">{{ page.title }}</h1>
-<article class="post-content ">
+<div id="home-window" class="home">
+<h1>{{ page.title }}</h1>
   {% for post in site.categories.[page.category] %}
-    {{post.title}}
+  <div class="cat-post">
+    <h2><a href="{{post.url}}" class="">{{post.title}}</a></h2>
+	<h3><a class="byline" href="/about#{{post.author | downcase | replace:' ','-' }}">BY: {{post.author}}</a></h3>
+	<p>{{post.excerpt | truncatewords: 30}}<br/></p>	
+  </div>
 	{% endfor %}
-</article>
-
-
+</div>
+</div>

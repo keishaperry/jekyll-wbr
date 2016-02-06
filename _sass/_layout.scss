@@ -44,36 +44,32 @@
   width: 90%;
   > hr { margin: 60px auto;}
   > h2 {
-  	font-size: 200%;
-  	margin: 20px 0;
-  	text-transform: uppercase;
+	  	font-size: 200%;
+	  	margin: 20px 0;
+	  	text-transform: uppercase;
   }
-  > h2 > a {
-  	background: $yellow;
-  }
+  > h2 > a {background: $yellow;}
   > .col-half > h3 {
-  	font-size: 90%;
-  	font-weight: 600;
-  	text-transform: uppercase;
+	  	font-size: 90%;
+	  	font-weight: 600;
+	  	text-transform: uppercase;
   }
-  > .col-half > h4 {
-  	font-size: 90%;
-  	font-weight: 100;
-  	letter-spacing: 2px;
-  	margin-bottom: 10px;
+  > .col-half > h4{
+	  	font-size: 90%;
+	  	font-weight: 100;
+	  	letter-spacing: 2px;
+	  	margin-bottom: 10px;
   }
 }
 .filter {
 	> ul { list-style: none;}
   	> ul > li > a {
-  	font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
+	  	font-weight: 500;
+	    text-decoration: none;
+	    text-transform: uppercase;
     }
 
-  	> ul > li:hover {
-    background: $yellow;
-    }
+  	> ul > li:hover { background: $yellow;}
 
 }
 .panel {
@@ -87,6 +83,11 @@
     overflow-x: hidden;
     padding-right: 15px;
     > a {background: $yellow;}
+    > h1 {
+	  	font-size: 200%;
+	  	margin: 20px 0;
+	  	text-transform: uppercase;
+  	}
 }
 .post-list {
     margin-left: 0;
@@ -95,6 +96,10 @@
     > li {
         margin-bottom: 10px;
     }
+}
+.post {
+  width: 650px;
+  margin: 10px auto;
 }
 .post-link {
     display: block;
@@ -116,8 +121,8 @@
   display: none;
   margin: 10px 0;
 
-  >  li:nth-child(n+6) {
-    display: none;   
+  > li:nth-child(n+6) {
+    	display: none;   
 	}
 }
 
@@ -125,12 +130,8 @@
 .article-content,
 .article-author {
   max-width: 850px;
-  > a{
-    text-decoration: underline;
-  }
-  > p{
-    margin-top: 20px;
-  }
+  > a{text-decoration: underline;}
+  > p{margin-top: 20px;}
 }
 .article-author {
   border: solid $grey-color-dark 2px;
@@ -139,6 +140,37 @@
 
 .foot {
   text-align: center;
+}
+/**
+ * Page Specific
+ */
+.cat-post{
+	margin: $spacing-unit auto;
+	> h2 > a {
+		font-size: 90%;
+  		font-weight: 600;
+  		text-transform: uppercase;
+	}
+ }
+.contributors {
+	font-size: 90%;
+	margin: 0 2%;
+	width: 96%;
+}
+.contributor {
+	> a { 
+		cursor: crosshair; 
+		padding-bottom: 4px;
+	  	font-size: 90%;
+	  	font-weight: 100;
+	  	letter-spacing: 2px;
+	  	margin-bottom: 10px;
+  	}
+}
+.contributor-body {
+	display: none;
+	font-size: 80%;
+	margin: 8px 0;
 }
 /**
  * Utils
@@ -152,27 +184,30 @@
 .clearfix{
   clear: both;
 }
-.col-half{
-  display: inline;
-  float: left;
-  margin: 10px 1%;
-  width: 46%;
-}
-.column-double{
-    -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 10px;
-  -moz-column-gap: 10px;
-  column-gap: 10px; 
-}
-.column-triple{
-    -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-gap: 10px;
-  -moz-column-gap: 10px;
-  column-gap: 10px; 
+// Only make columns if min-width
+@media (min-width: 650px) {
+	.col-half{
+	  display: inline;
+	  float: left;
+	  margin: 10px 1%;
+	  width: 46%;
+	}
+	.column-double{
+	    -webkit-column-count: 2;
+	  -moz-column-count: 2;
+	  column-count: 2;
+	  -webkit-column-gap: 10px;
+	  -moz-column-gap: 10px;
+	  column-gap: 10px; 
+	}
+	.column-triple{
+	    -webkit-column-count: 3;
+	  -moz-column-count: 3;
+	  column-count: 3;
+	  -webkit-column-gap: 10px;
+	  -moz-column-gap: 10px;
+	  column-gap: 10px; 
+	}
 }
 .indent {
   margin-right: 8px;
@@ -187,7 +222,7 @@
 	right: 78%;
 }
 /**
- * Psudo-modal
+ * Post Viewbox
  */
 .black_overlay {
   display: none;
@@ -206,9 +241,9 @@
     background: $grey-color-light;
     display: none;
     position: absolute;
-    top: 20%;
-    left: 1%;
-    width: 99%;
+    top: 24%;
+    left: 0;
+    width: 100%;
     height: 74%;
     z-index: 1002;
     overflow-y: scroll;
