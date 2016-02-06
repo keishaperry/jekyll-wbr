@@ -1,311 +1,271 @@
-.wrapper{
-	margin: 0 auto;
-}
-.home{
-  padding: 30px 0;
-}
-.indent {
-  margin-right: 8px;
-}
-.search{
-  margin: 30px auto 10px;
-}
-.tl-search{
-  width: 80%;
-  height: 40px;
-}
-.tl-search:focus{
-  border: none;
-  outline: -webkit-focus-ring-color auto 0;
-}
-.modal-body {
-    background: $grey-color-light;
-    display: none;
-    position: absolute;
-    top: 20%;
-    left: 1%;
-    width: 99%;
-    height: 74%;
-    z-index: 1002;
-    overflow-y: scroll;
-  }
-  .article-header{
-   margin: 20px 20%;
-  }
-  .article-content,
-  .article-author{
-    max-width: 650px;
-  }
-  .article-author{
-    border: solid $grey-color-dark 2px;
-  }
 //xsmall
 @media (max-width: 400px) {
-  #masthead { background: red; }
-  .wrapper{
-	max-width: 360px;
-  width: 100%;
-  }
-  .banner{
-    font-size: calc(#{$base-font-size} * 2);
-    padding-top: 90px;
-  }
-  .site-header{height: 200px;}
-  .subtext, .subtext-h{
-    font-size: 90%;
-    letter-spacing: 8px;
-    word-spacing: 10px;
-  }
-  .map-wrapper { display: none;}
-  .main-navigation li {
-    display: block;
-    font-size: 120%;
-    margin: 10px auto;
-    padding: 0;
-    text-align: left;
-    width: 10%;
-    }
-  .panel{
-      display: block;
-      float: none;
-      margin: 60px auto;
-      width: 90%;
-    }
+  //#masthead { background: red; }
+    .site-header{height: 220px;}
+    .banner{
+        font-size: calc(#{$base-font-size} * 2);
+        padding-top: 90px;
+      }
+    .subtext, .subtext-h{
+        font-size: 90%;
+        letter-spacing: 8px;
+        word-spacing: 10px;
+      }
+    .main-navigation {
+        float: left;
+        margin: 30px auto 10px;
+        >ul  > li{
+        display: block;
+        margin: 0 auto;
+        padding: 8px;
+        text-align: center;
+        width: 80%;
+        }
+      }
+    .map-wrapper { display: none;}
+    .wrapper{ max-width: 360px;}
+    .panel{
+        display: block;
+        float: none;
+        margin: 60px auto;
+        width: 90%;
+        }
     .filter{
+        float: none;
+        margin: 10px auto;
+        width: 96%;
+        >ul  > li{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        }
+    }
+    .timeline{
       float: none;
-      margin: 10px auto;
-      width: 96%;
-  }
-  .timeline{
-    float: none;
-    margin: $spacing-unit auto;
-    width: 100%;
-  }
-  .filter li{
-    display: block;
-    text-align: center;
-    width: 80%;
-  }
-  .timeline ul{
-    display: inline;
-    padding: 0;
-  }
-  .timeline p, .timeline li{
-    display: inline;
-  }
-  .timeline a{
-    display: inline-block;
-    margin: 0 auto;
-    padding: 2px;
-  }
-  .article-content,
-  .article-author{
-    margin: 40px 15%;
-    width: 70%;
-  }
-  .article-author{
-    padding: 10px 10px;
-  }
-
+      margin: $spacing-unit auto;
+      width: 100%;
+        > ul {
+        display: inline;
+        padding: 0;
+        }
+        > a {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 2px;
+        }
+        > p, li { display: inline;}
+    }
+    .article-header,
+    .article-content,
+    .article-author{
+        margin: 40px 5%;
+        width: 80%;
+    }
 }
 //small
 @media (min-width: 401px) and (max-width: 800px) {
-  #masthead { background: green; }
-  .wrapper{
-  	width: 400px;
-  }
-  .banner{
-    font-size: calc(#{$base-font-size} * 3);
-    padding-top: 90px;
-  }
-  .subtext, .subtext-h{
-    font-size: 110%;
-    letter-spacing: 10px;
-    word-spacing: 10px;
-  }
-  .site-header{height: 220px;}
-
-  .main-navigation li {
-    display: block;
-    font-size: 120%;
-    padding: 10px 0;
+  //#masthead { background: green; }
+  .site-header{height: 240px;}
+    .banner{
+        font-size: 260%;
+        padding-top: 110px;
+      }
+    .subtext, .subtext-h{
+        font-size: 90%;
+        letter-spacing: 8px;
+        word-spacing: 10px;
+      }
+    .main-navigation {
+        float: left;
+        margin: 40px auto 10px;
+        >ul  > li{
+        display: block;
+        margin: 0 auto;
+        padding: 8px;
+        text-align: center;
+        width: 80%;
+        }
+      }
+    .wrapper{ max-width: 800px;}
+    .panel{
+        display: block;
+        float: none;
+        margin: 60px auto;
+        width: 90%;
+        }
+    .filter{
+        float: none;
+        margin: 10px auto;
+        width: 96%;
+        >ul  > li{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        }
     }
-  .panel{
-      display: block;
-      float: none;
-      margin: 60px 5%;
+    .search{
+      margin: 0 auto;
       width: 90%;
     }
-    .filter{
+    .timeline{
       float: none;
-      margin: 10px auto $spacing-unit;
-      width: 100%;
-  }
-  .timeline{
-    float: none;
-    margin: $spacing-unit auto;
-    width: 100%;
-  }
-  .filter li{
-    display: block;
-    text-align: center;
-    width: 90%;
-  }
-  .timeline ul{
-    display: inline;
-    padding: 0;
-  }
-  .timeline p, .timeline li{
-    display: inline;
-  }
-  .timeline a{
-    display: inline-block;
-    margin: 0 auto;
-    padding: 2px;
-  }
-  .article-content,
-  .article-author{
-    margin: 40px 15%;
-    width: 70%;
-  }
-  .article-author{
-    padding: 10px 20px;
-  }
+      margin: $spacing-unit auto;
+      width: 90%;
+        > ul {
+        display: inline;
+        padding: 0;
+        }
+        > a {
+        display: inline-block;
+        margin: 0 auto;
+        }
+        > p, li { display: inline; padding: 1px;}
+    }
+    .article-header,
+    .article-content,
+    .article-author{
+        margin: 40px 5%;
+        width: 80%;
+    }
 }
-
 //medium
 @media (min-width: 801px) and (max-width: 1223px) {
-  #masthead { background: pink; }
-  .wrapper{
-  		width: 800px;
-  	}
-  .banner{
-    font-size: calc(#{$base-font-size} * 5);
-    padding-top: 90px;
-  }
-  .subtext, .subtext-h{
-    font-size: 100%;
-    letter-spacing: 14px;
-    word-spacing: 16px;
-  }
-  .site-header{height: 240px;}
-  .main-navigation li {
-    display: inline;
-    font-size: 200%;
-    padding: 0 8%;
-    }
-   	.panel{
-    	display: block;
-    	float: none;
-    	margin: 60px auto;
-    	width: 90%;
-  	}
-    .sidebar,
+  //#masthead { background: pink; }
+  .site-header{height: 260px;}
+    .banner{
+        font-size: 420%;
+        padding-top: 120px;
+      }
+    .subtext, .subtext-h{
+        font-size: 100%;
+        letter-spacing: 8px;
+        word-spacing: 10px;
+      }
+    .main-navigation {
+        margin: 90px auto 10px;
+        >ul  > li{
+        display: inline;
+        margin: 0 auto;
+        padding: 0 8%;
+        text-align: center;
+        }
+      }
+    .wrapper{ max-width: 1200px;}
+    .panel{
+        display: block;
+        float: none;
+        margin: 60px auto;
+        width: 90%;
+        }
     .filter{
-    	float: none;
-    	margin: $spacing-unit auto;
-    	width: 100%;
-	}
-	.timeline{
-		float: none;
-		margin: $spacing-unit auto;
-		width: 100%;
-	}
-	.filter li{
-		display: inline;
-		padding: 0 2%;
-	}
-	.timeline ul{
-		display: inline;
-		padding: 0;
-	}
-	.timeline p, .timeline li{
-		display: inline;
-	}
-  .timeline a{
-    display: inline-block;
-    margin: 0 auto;
-    padding: 2px;
-  }
-  .article-content,
-  .article-author{
-    margin: 60px 25%;
-    width: 50%;
-  }
-  .article-author{
-    padding: 10px 30px;
-  }
+        float: none;
+        margin: 30px auto;
+        width: 96%;
+        >ul  > li{
+        display: inline;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 3%;
+        }
+    }
+    .search{ margin: 0 auto; width: 90%;}
+    .timeline{
+      float: none;
+      margin: $spacing-unit auto;
+      width: 96%;
+        > ul {
+        display: inline;
+        padding: 0;
+        }
+        > a {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 2px;
+        }
+        > p, li { display: inline;}
+    }
+    .article-header,
+    .article-content,
+    .article-author{
+        margin: 40px 5%;
+        width: 80%;
+    }
+
 }
 
 //large
 @media (min-width: 1224px) {
-  #masthead { background: blue; }
-  .wrapper{
-      width: 1200px;
-    }
-    .page-content .wrapper{margin-top: 60px;}
-  .banner{
-    font-size: calc(#{$base-font-size} * 6);
-    padding-top: 90px;
-  }
-  .subtext, .subtext-h{
-    font-size: 150%;
-    letter-spacing: 16px;
-    word-spacing: 18px;
-  }
-  .site-header{height: 280px;}
-  .main-navigation li {
-    display: inline;
-    font-size: 200%;
-    padding: 0 2% 0 10%;
-  }
-  .panel{
-      float: left;
-      margin: 0 2%;
-      width: 60%;
-    }
+  //#masthead { background: blue; }
+  .site-header{height: 300px;}
+    .banner{
+        font-size: 500%;
+        padding-top: 110px;
+      }
+    .subtext, .subtext-h{
+        font-size: 110%;
+        letter-spacing: 16px;
+        word-spacing: 24px;
+      }
+    .main-navigation {
+        margin: 100px auto 20px;
+        >ul  > li{
+        display: inline;
+        margin: 0 auto;
+        padding: 0 8%;
+        text-align: center;
+        }
+      }
+    .wrapper{ max-width: 1200px;}
+    .panel{
+        display: block;
+        float: left;
+        margin: $spacing-unit 2%;
+        width: 60%;
+        }
     .filter{
-      float: left;
-      margin: $spacing-unit auto;
-      width: 14%;
-  }
-  
-  .filter li{
-    display: block;
-    padding: 0 2%;
-  }
-  .tl{
-    height: 800px;
-    overflow: hidden;
-}
-
-.timeline {
-    height: 89%;
-    width: 102%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding-right: 15px;
-}
-  .timeline ul{
-    display: block;
-    padding: 0;
-  }
-  .timeline li{
-    display: block;
-    margin: 0;
-  }
-  .timeline a{
-    display: inline-block;
-    margin: 1px auto;
-    padding: 2px;
-  }
-  .article-content,
-  .article-author{
-    margin: 60px 25%;
-    width: 50%;
-  }
-  .article-author{
-    padding: 10px 40px;
-  }
+        float: left;
+        margin: $spacing-unit 0;
+        width: 14%;
+        >ul  > li{
+        display: block;
+        }
+    }
+    .search{
+      margin-bottom: $spacing-unit;
+      width: 98%;
+    }
+    .tl{
+        float: left;
+        margin: $spacing-unit 0;
+        height: 754px;
+        overflow: hidden;
+        width: 22%;
+    }
+    .timeline{
+        height: 89%;
+        width: 102%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-right: 15px;
+        float: left;
+        > ul {
+        display: inline;
+        padding: 0;
+        }
+        > a {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 2px;
+        }
+        > p, li { display: inline;}
+    }
+    .article-header,
+    .article-content,
+    .article-author{
+        margin: 40px 5%;
+        width: 80%;
+    }
 
 }

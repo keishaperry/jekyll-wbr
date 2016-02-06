@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %} {% include header.html %}
-<style>
-.close{
-  font-size: 300%;
-  position: absolute;
-  top: 0%;
-  right: 2%;
-}
-</style>
+
 <body id="post">
   <div id="main" class="wrapper" role="main">
     <article class="post-popup">
@@ -26,7 +19,7 @@
         
         {% assign the_author = site.data.people | where: 'name', {{page.author}} %} {% for author in the_author %}
         <div class="article-author">
-         <h4>{{author.description}}</h4>
+         <p>{{author.description}}</p>
         </div>
         {% endfor %} 
        
@@ -34,45 +27,38 @@
 
       <div id="post-modal" class="modal-body">
         <div class="article-header">
-        <h2> {{page.title}} </h2>
-        <h3>by: {{page.author}}</h3>
+          <h2> {{page.title}} </h2>
+          <h3>by: {{page.author}}</h3>
         </div>
         <div class="article-content">
-{{ content }}
+          {{ content }}
 
-           </div>
+        </div>
 
-      
-        
-        {% assign the_author = site.data.people | where: 'name', {{page.author}} %} {% for author in the_author %}
-          {% if author.description %}
-            <div class="article-author">
-            <h4>{{author.description}}</h4>
-            </div>
-          {% endif %}
-        {% endfor %} 
-       
+        {% assign the_author = site.data.people | where: 'name', {{page.author}} %} {% for author in the_author %} {% if author.description %}
+        <div class="article-author">
+          <p>{{author.description}}</p>
+        </div>
+        {% endif %} {% endfor %}
+
         <a onclick="history.back(-1)" class="close">X</a>
-        
-        </div> 
+
+      </div>
       <div id="fade" class="black_overlay"></div>
     </article>
   </div>
-
 
   <script>
   $(document).ready(function() {
     document.getElementById('post-modal').style.display = 'block';
     document.getElementById('fade').style.display = 'block';
-    $( ".close" ).click(function() {
+    $(".close").click(function() {
       document.getElementById('post-modal').style.display = 'hidden';
       document.getElementById('fade').style.display = 'hidden';
     });
     $(document).keyup(function(e) {
-      if (e.keyCode == 27) $('.close').click();   // esc
+      if (e.keyCode == 27) $('.close').click(); // esc
     });
-
-
   });
   </script>
 </body>

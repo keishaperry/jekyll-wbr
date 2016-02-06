@@ -9,20 +9,22 @@ permalink: /about/
 <hr/>
 
 <h2>Masthead</h2>
-
-<div class="mastlist column-double">
-  <h3 class="mastname">Grace Littlefield</h3>
-  <h4 class="masttitle">Executive Director</h4>
-  <h3 class="mastname">Jon Chaiim McConnell</h3>
-  <h4 class="masttitle">Associate Editor</h4>
-  <h3 class="mastname">Bernd Sauermann</h3>
-  <h4 class="masttitle">Poetry Editor</h4>
-  <h3 class="mastname">Brian White</h3>
-  <h4 class="masttitle">Special Projects Fellow</h4>
-  <h3 class="mastname">Katharine Hargreaves</h3>
-  <h4 class="masttitle">Creative Director</h4
-  <h3 class="mastname">Justin Stephani</h3>
-  <h4 class="masttitle">Columns Editor</h4>
-  <h3 class="mastname">Adam Segal</h3>
-  <h4 class="masttitle">Interviewer</h4>
-</div>
+<div class="col-half">
+  <h3>Grace Littlefield</h3>
+  <h4>Executive Director</h4>
+  <h3>Jon Chaiim McConnell</h3>
+  <h4>Associate Editor</h4>
+  <h3>Bernd Sauermann</h3>
+  <h4>Poetry Editor</h4>
+  <h3>Brian White</h3>
+  <h4>Special Projects Fellow</h4>
+  </div>
+<div class="col-half">
+  <h3>Katharine Hargreaves</h3>
+  <h4>Creative Director</h4>
+  <h3>Justin Stephani</h3>
+  <h4>Columns Editor</h4>
+  <h3>Adam Segal</h3>
+  <h4>Interviewer</h4>
+  </div>
+  <div class="clearfix"></div>

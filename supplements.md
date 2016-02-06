@@ -4,8 +4,14 @@ title: Supplements
 permalink: /supplements/
 ---
 <div class="page">
-  <div class="col-half">
-    <img class="img-responsive" src="/assets/img/INTERNETLOOKBOOK-Cover.png" alt="INTERNETLOOKBOOK-Cover" style="margin-top: 206px; margin-bottom: 206px;"><br>
+<div class="image-well" style="display: inline-block; height: 100%; vertical-align: middle;">
+<img class="img-responsive" src="/assets/img/INTERNETLOOKBOOK-Cover.png" alt="INTERNETLOOKBOOK-Cover" width="48%">
+<img class="img-responsive" src="/assets/img/6.-EcoutelaPluieCover.jpg" alt="EcoutelaPluieCover" width="48%">
+</div>
+
+<div class="col-half">
+    
+    <br>
 
     <p> The <em>Internet Lookbook</em> is a supplement (supporting text) of the quarterly publication WHOLE BEAST RAG. Supplement texts are stand-alone and serve to expand upon the conceptual elements that underline and govern our aesthetic direction and aligning values. Our nature as an entity hinges upon the agreement that all ideas are fluid and that each expression (or derivation) is but one of many potential shapes that might be occupied in its evolution.
     </p>
@@ -18,7 +24,7 @@ permalink: /supplements/
 
   </div>
   <div class="col-half">
-  	<img class="img-responsive" src="/assets/img/6.-EcoutelaPluieCover.jpg" alt="EcoutelaPluieCover"><br>
+  	<br>
 
     <p><em>Ecoute la pluie</em> is a chapbook translation of Michèle Lesbre's novel - published for the first time in English with permission from <a href="http://www.swediteur.com/" target="_blank">SW Editeur</a>.</p>
 
