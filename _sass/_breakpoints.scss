@@ -30,6 +30,12 @@
         margin: 60px auto;
         width: 90%;
         }
+
+    .post-list {
+        > li:nth-child(n+16) {
+        display: none;   
+        }
+    }
     .filter{
         float: none;
         margin: 10px auto;
@@ -62,6 +68,7 @@
         margin: 40px 5%;
         width: 80%;
     }
+
 }
 //small
 @media (min-width: 401px) and (max-width: 800px) {
@@ -94,6 +101,11 @@
         margin: 60px auto;
         width: 90%;
         }
+    .post-list {
+        > li:nth-child(n+24) {
+        display: none;   
+        }
+    }
     .filter{
         float: none;
         margin: 10px auto;
@@ -159,6 +171,11 @@
         margin: 60px auto;
         width: 90%;
         }
+    .post-list {
+        > li:nth-child(n+32) {
+        display: none;   
+        }
+    }
     .filter{
         float: none;
         margin: 30px auto;

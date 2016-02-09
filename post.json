@@ -1,0 +1,14 @@
+---
+---
+[
+{% for post in site.posts %}
+{
+  "title"    : "{{ post.title }}",
+  "category" : "{{ post.category }}",
+  "issue" : "{{ post.issue }}",
+  "href"     : "{{ post.url }}",
+  "author"	: "{{post.author}}"
+}
+{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]

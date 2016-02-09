@@ -1,11 +1,37 @@
 <div class="search">
 	
 <div class="content" id="content">
+<!--
 <form id="searchform">
 <input placeholder="Search…" type="text" id="search" class="search-input tl-search"></form>
 <ul id="results" class="post-list results"><hr/></ul>
+-->
+<div id="searcharea">
+<input type="text" name="search" id="search" class="search-input tl-search" placeholder="Search..." autocomplete="off" />
 </div>
+<div id="update"></div>
+
 
 </div>
 
- 
+</div>
+
+ <script>
+ $('#search').keyup(function(){
+var searchField = $('#search').val();
+var myExp = new RegExp(searchField, 'i');
+$.getJSON('post.json', function(data){
+var output = '<ul class="post-list results">';
+$.each(data, function(key, val){
+if((val.title.search(myExp) != -1) || (val.author.search(myExp) != -1)) {
+output +='<li><a class="search-res">';
+output +='<p><span class="indent">►</span>' + val.title + '</p></a>';
+//output +='<p>' + val.author + '</p>';
+output +='</li>';
+}
+});
+output += '</ul>';
+$('#update').html(output);
+});
+});
+ </script>
