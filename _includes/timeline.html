@@ -1,16 +1,14 @@
 <div class="timeline">
-<ul id="timeline_posts" class="post-list js-on"> 
-</ul>
-<noscript>
-<ul class="post-list"> 
-  {% for post in site.posts %}
+
+<ul id="timeline_posts" class="post-list"> 
+{% assign sorted_posts = (site.posts | sort: 'issue') %}
+{% for post in sorted_posts %}
     <li> 
-    <a class="postlink" href="{{ post.url | prepend: site.baseurl }}">
+    <a class="postlink" href="{{ post.url }}">
     <p><span class="indent">►</span>{{ post.title }}</p>
     <p class="byline">{{ post.author }}</p>  
     </a> 
     </li> 
   {% endfor %} 
   </ul>
-  </noscript>
 </div>
