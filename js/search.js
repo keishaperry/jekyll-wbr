@@ -2,12 +2,11 @@
 var searchField = $('#search').val();
 var myExp = new RegExp(searchField, 'i');
 $.getJSON('post.json', function(data){
-var output = '<ul class="searchresult">';
+var output = '<ul class="post-list results">';
 $.each(data, function(key, val){
 if((val.title.search(myExp) != -1) || (val.author.search(myExp) != -1)) {
-output +='<li>';
-output +='<h2>' + val.title + '</h2>';
-output +='<p>' + val.author + '</p>';
+output +='<li><a href="' + val.href + '" class="search-res">';
+output +='<p><span class="indent">►</span>' + val.title + '</p></a>';
 output +='</li>';
 }
 });

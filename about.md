@@ -9,7 +9,7 @@ permalink: /about/
 <hr/>
 
 <h2>Masthead</h2>
-<div class="col-half">
+<div class="col-half masthead">
   <h3>Grace Littlefield</h3>
   <h4>Executive Director</h4>
   <h3>Jon Chaiim McConnell</h3>
